@@ -1,6 +1,47 @@
-# React + TypeScript + Vite
+# AtlaMed - Alternative Medicine Practitioner Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + TypeScript + Vite application for connecting patients with certified alternative medicine practitioners.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v20 or higher)
+- pnpm (recommended) or npm
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pnpm install
+   # or
+   npm install
+   ```
+
+3. Set up environment variables (optional):
+   - Copy `.env.example` to `.env`
+   - Fill in your Supabase credentials
+   
+   **Note:** The app will run without Supabase credentials, but database features will not work. You'll see a warning in the console that you can safely ignore during development.
+
+### Running the Development Server
+
+```bash
+pnpm run dev
+# or
+npm run dev
+```
+
+The application will start on http://localhost:5173 (or the next available port).
+
+### Building for Production
+
+```bash
+pnpm run build
+# or
+npm run build
+```
 
 Currently, two official plugins are available:
 
