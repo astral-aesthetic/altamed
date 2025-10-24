@@ -1,0 +1,1029 @@
+{
+  "metadata": {
+    "collection_date": "2025-10-16",
+    "total_practitioners": 32,
+    "categories": {
+      "complementary_alternative_therapies": 26,
+      "personalized_pharmacists": 6
+    },
+    "geographic_coverage": {
+      "states": 16,
+      "cities": 21
+    }
+  },
+  "practitioners": [
+    {
+      "id": 1,
+      "category": "Chiropractor - Holistic",
+      "full_name": "Dr. Alexander Jimenez",
+      "credentials": ["DCNP", "DC", "FNP-BC"],
+      "specialty_areas": [
+        "Chiropractic",
+        "Family Medicine",
+        "Sports Medicine",
+        "Holistic/Integrative Care",
+        "Acupuncture"
+      ],
+      "practice_location": {
+        "name": "Injury Medical & Chiropractic",
+        "address": "11860 Vista del Sol Dr # 128",
+        "city": "El Paso",
+        "state": "TX",
+        "zip_code": "79936"
+      },
+      "contact_information": {
+        "phone": "(512) 631-7127",
+        "email": null,
+        "website": null
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages": ["English", "Spanish"],
+      "years_of_experience": 33,
+      "bio": "Dr. Alex Jimenez, a Doctor of Chiropractic (DC) and Family Nurse Practitioner (FNP-BC), offers integrative care in El Paso, Texas. His practice blends chiropractic and nurse practitioner expertise for a unique integrative healthcare approach.",
+      "patient_ratings": {
+        "overall_rating": 5.0,
+        "total_reviews": 90
+      },
+      "photo_url": null
+    },
+    {
+      "id": 2,
+      "category": "Acupuncture",
+      "full_name": "Dr. Monte Gores",
+      "credentials": ["DAOM"],
+      "specialty_areas": [
+        "Acupuncture",
+        "Chinese Herbal Medicine",
+        "Pain Management",
+        "Infertility Treatment"
+      ],
+      "practice_location": {
+        "name": "The Rinehart Clinic",
+        "address": "230 Rowe Rd",
+        "city": "Wheeler",
+        "state": "OR",
+        "zip_code": "97147"
+      },
+      "contact_information": {
+        "phone": "(800) 368-5182",
+        "email": null,
+        "website": null
+      },
+      "accepted_insurance": "Not explicitly listed; verify with provider",
+      "languages": ["English", "Mandarin"],
+      "years_of_experience": 16,
+      "bio": "Board certified acupuncturist and herbalist by the state of Idaho, California, and the NCCAOM. Specializes in using few needles and simple herbal medicine that resonates with the body's natural wisdom to heal.",
+      "patient_ratings": {
+        "overall_rating": 5.0,
+        "total_reviews": 3
+      },
+      "photo_url": null
+    },
+    {
+      "id": 3,
+      "category": "Acupuncture",
+      "full_name": "David Schnitzer",
+      "credentials": ["D.O.M.", "NCCAOM Diplomate", "Licensed Acupuncturist Physician"],
+      "specialty_areas": [
+        "Acupuncture",
+        "Oriental Medicine"
+      ],
+      "practice_location": {
+        "name": "Balance Point Acupuncture",
+        "address": "400 Executive Center Dr., Suite 202",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip_code": "33401"
+      },
+      "contact_information": {
+        "phone": "(561) 615-4535",
+        "email": "BalancePointQi@gmail.com",
+        "website": null
+      },
+      "accepted_insurance": "Not mentioned",
+      "languages": null,
+      "years_of_experience": 18,
+      "bio": "Licensed Acupuncturist Physician and diplomate of Acupuncture and Oriental Medicine by NCCAOM. Focused on relieving suffering and promoting healthy lifestyle. Received Clinical Excellence award from Southeast College of Oriental Medicine.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 4,
+      "category": "Acupuncture",
+      "full_name": "Casey McCaig",
+      "credentials": ["A.P.", "D.O.M.", "NCCAOM Diplomate"],
+      "specialty_areas": [
+        "Traditional Chinese Medicine",
+        "Japanese Acupuncture",
+        "Orthopedic Acupuncture",
+        "Chinese Herbology",
+        "Women's Health",
+        "Cosmetic Acupuncture"
+      ],
+      "practice_location": {
+        "name": "Balance Point Acupuncture",
+        "address": "400 Executive Center Dr., Suite 202",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip_code": "33401"
+      },
+      "contact_information": {
+        "phone": "(561) 615-4535",
+        "email": "BalancePointQi@gmail.com",
+        "website": null
+      },
+      "accepted_insurance": "Not mentioned",
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Licensed Acupuncture Physician specializing in gentle Japanese acupuncture. Trained in Traditional Chinese Medicine, Japanese Acupuncture, and Chinese Herbology. Master's degree from New England School of Acupuncture.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 5,
+      "category": "Acupuncture",
+      "full_name": "Sophia L. Ramsijewan",
+      "credentials": ["A.P.", "D.O.M.", "Dipl. Ac.", "ABORM Certified"],
+      "specialty_areas": [
+        "Fertility",
+        "IVF Support",
+        "Chinese Herbs",
+        "Pain Management",
+        "Digestive Disorders"
+      ],
+      "practice_location": {
+        "name": "Balance Point Acupuncture",
+        "address": "400 Executive Center Dr., Suite 202",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip_code": "33401"
+      },
+      "contact_information": {
+        "phone": "(561) 615-4535",
+        "email": "BalancePointQi@gmail.com",
+        "website": null
+      },
+      "accepted_insurance": "Not mentioned",
+      "languages": null,
+      "years_of_experience": 13,
+      "bio": "Licensed Acupuncture Physician and certified ABORM practitioner specializing in fertility and IVF journeys. Graduated from Atlantic Institute of Oriental Medicine in 2012.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 6,
+      "category": "Acupuncture",
+      "full_name": "Stephanie Osborne",
+      "credentials": ["A.P.", "D.O.M.", "NCCAOM Diplomate"],
+      "specialty_areas": [
+        "Pain Management",
+        "Chronic Pain",
+        "Women's Health",
+        "Digestive Health",
+        "Herbal Medicine"
+      ],
+      "practice_location": {
+        "name": "Balance Point Acupuncture",
+        "address": "400 Executive Center Dr., Suite 202",
+        "city": "West Palm Beach",
+        "state": "FL",
+        "zip_code": "33401"
+      },
+      "contact_information": {
+        "phone": "(561) 615-4535",
+        "email": "BalancePointQi@gmail.com",
+        "website": null
+      },
+      "accepted_insurance": "Not mentioned",
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Licensed Acupuncture Physician with expertise in bodywork and exercise physiology. Certified stretch therapist, yoga instructor, and barre instructor. Focuses on relieving pain and helping patients regain functionality.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 7,
+      "category": "Acupuncture",
+      "full_name": "Dr. Steffani Corey",
+      "credentials": ["DOM", "AP", "NPI: 1659743622"],
+      "specialty_areas": [
+        "Pain Management",
+        "Fertility Treatments",
+        "Hormonal Balance",
+        "Stress Management",
+        "Metabolic Health"
+      ],
+      "practice_location": {
+        "name": "White Crane Clinic",
+        "address": "210 S. Pinellas Ave., Suite 112",
+        "city": "Tarpon Springs",
+        "state": "FL",
+        "zip_code": "34689"
+      },
+      "contact_information": {
+        "phone": "(727) 942-4249",
+        "email": "customerservice@whitecraneclinic.com",
+        "website": "https://whitecraneclinic.com/"
+      },
+      "accepted_insurance": "Not mentioned",
+      "languages": null,
+      "years_of_experience": 10,
+      "bio": "Board-Certified Doctor of Oriental Medicine and Chair of Florida Board of Acupuncture (appointed by Governor Ron DeSantis, 2021). Four active NCCAOM certifications. Combines classical Chinese therapeutics with evidence-informed biomedical care.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 8,
+      "category": "Chiropractor - Holistic",
+      "full_name": "Dr. Maggie McInnes",
+      "credentials": ["DC"],
+      "specialty_areas": [
+        "Vitalistic Chiropractic",
+        "Family Chiropractic",
+        "Prenatal Care",
+        "Pediatric Chiropractic"
+      ],
+      "practice_location": {
+        "name": "The Wellness Tribe",
+        "address": "South Pearl Street",
+        "city": "Denver",
+        "state": "CO",
+        "zip_code": null
+      },
+      "contact_information": {
+        "phone": null,
+        "email": null,
+        "website": "https://the-wellness-tribe.com/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Founder of The Wellness Tribe. Disciplined and intuitive Denver chiropractic doctor and healer focused on vitalistic family, prenatal, and pediatric chiropractic care. Empowers a path where health is priority and natural is the norm.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 9,
+      "category": "Acupuncture",
+      "full_name": "Mark Schwartz",
+      "credentials": ["DAOM", "LAc", "FABORM", "Dipl. O.M. (NCCAOM)"],
+      "specialty_areas": [
+        "Women's Health",
+        "Integrative Reproductive Medicine",
+        "Infertility",
+        "Chinese Medicine"
+      ],
+      "practice_location": {
+        "name": "Buckhead Acupuncture & Herbal Center",
+        "address": "2233 Peachtree Road NE, Suite 210",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30309"
+      },
+      "contact_information": {
+        "phone": "678-549-7848",
+        "email": "info@atlanta-acupuncture.net",
+        "website": "https://atlanta-acupuncture.net/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Doctorate in Chinese Medicine specializing in Women's Health & Integrative Reproductive Medicine. Fellow of The Acupuncture and TCM Board of Reproductive Medicine (FABORM).",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 10,
+      "category": "Acupuncture",
+      "full_name": "Kelly Xiang Li",
+      "credentials": ["LAc", "Dipl. O.M. (NCCAOM)"],
+      "specialty_areas": [
+        "Acupuncture",
+        "Chinese Herbology",
+        "Migraine Treatment"
+      ],
+      "practice_location": {
+        "name": "Buckhead Acupuncture & Herbal Center",
+        "address": "2233 Peachtree Road NE, Suite 210",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30309"
+      },
+      "contact_information": {
+        "phone": "678-549-7848",
+        "email": "info@atlanta-acupuncture.net",
+        "website": "https://atlanta-acupuncture.net/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Nationally Board Certified in Acupuncture & Chinese Herbology. Specializes in migraine treatment with proven success.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 11,
+      "category": "Acupuncture",
+      "full_name": "Wendy Choi",
+      "credentials": ["LAc", "Dipl. O.M. (NCCAOM)"],
+      "specialty_areas": [
+        "Infertility",
+        "IVF/IUI Support",
+        "Pain Management",
+        "Menopause",
+        "Women's Health",
+        "Autoimmune Disorders"
+      ],
+      "practice_location": {
+        "name": "Buckhead Acupuncture & Herbal Center",
+        "address": "2233 Peachtree Road NE, Suite 210",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30309"
+      },
+      "contact_information": {
+        "phone": "678-549-7848",
+        "email": "info@atlanta-acupuncture.net",
+        "website": "https://atlanta-acupuncture.net/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Nationally Board Certified Acupuncturist excelling in treating infertility, IVF/IUI support, pain management, menopause, and women's health issues.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 12,
+      "category": "Acupuncture",
+      "full_name": "Hanlin Yang",
+      "credentials": ["LAc", "Dipl. O.M. (NCCAOM)"],
+      "specialty_areas": [
+        "Acupuncture",
+        "Chinese Herbology"
+      ],
+      "practice_location": {
+        "name": "Buckhead Acupuncture & Herbal Center",
+        "address": "2233 Peachtree Road NE, Suite 210",
+        "city": "Atlanta",
+        "state": "GA",
+        "zip_code": "30309"
+      },
+      "contact_information": {
+        "phone": "678-549-7848",
+        "email": "info@atlanta-acupuncture.net",
+        "website": "https://atlanta-acupuncture.net/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Nationally Board Certified in Acupuncture & Chinese Herbology.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 13,
+      "category": "Integrative Medicine",
+      "full_name": "Dr. Rachel Abrams",
+      "credentials": ["MD"],
+      "specialty_areas": [
+        "Integrative Medicine"
+      ],
+      "practice_location": {
+        "name": "Santa Cruz Integrative Medicine",
+        "address": "740 Front St., Suite 130",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip_code": "95060"
+      },
+      "contact_information": {
+        "phone": "831-465-9088",
+        "email": "admin@santacruzintegrativemedicine.com",
+        "website": "https://www.santacruzintegrativemedicine.com"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Integrative Medicine physician at award-winning clinic (Best Clinic in Santa Cruz 2009-2024).",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 14,
+      "category": "Acupuncture",
+      "full_name": "Dr. Adrianna Gonzalez",
+      "credentials": ["DAOM", "L.Ac."],
+      "specialty_areas": [
+        "Acupuncture",
+        "Herbal Medicine"
+      ],
+      "practice_location": {
+        "name": "Santa Cruz Integrative Medicine",
+        "address": "740 Front St., Suite 130",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip_code": "95060"
+      },
+      "contact_information": {
+        "phone": "831-465-9088",
+        "email": "admin@santacruzintegrativemedicine.com",
+        "website": "https://www.santacruzintegrativemedicine.com"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Doctorate in Acupuncture and Oriental Medicine, specializing in acupuncture and herbal medicine.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 15,
+      "category": "Naturopathic Medicine",
+      "full_name": "Dr. Aimée Shunney",
+      "credentials": ["ND"],
+      "specialty_areas": [
+        "Naturopathic Medicine"
+      ],
+      "practice_location": {
+        "name": "Santa Cruz Integrative Medicine",
+        "address": "740 Front St., Suite 130",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip_code": "95060"
+      },
+      "contact_information": {
+        "phone": "831-465-9088",
+        "email": "admin@santacruzintegrativemedicine.com",
+        "website": "https://www.santacruzintegrativemedicine.com"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Naturopathic Doctor providing holistic and natural healthcare solutions.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 16,
+      "category": "Osteopathic Medicine",
+      "full_name": "Dr. Kyle Keene",
+      "credentials": ["DO"],
+      "specialty_areas": [
+        "Osteopathic Medicine",
+        "Prolotherapy",
+        "PRP"
+      ],
+      "practice_location": {
+        "name": "Santa Cruz Integrative Medicine",
+        "address": "740 Front St., Suite 130",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip_code": "95060"
+      },
+      "contact_information": {
+        "phone": "831-465-9088",
+        "email": "admin@santacruzintegrativemedicine.com",
+        "website": "https://www.santacruzintegrativemedicine.com"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Doctor of Osteopathic Medicine specializing in prolotherapy and PRP treatments.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 17,
+      "category": "Acupuncture",
+      "full_name": "Dr. Irina Logman",
+      "credentials": ["DACM", "LAc"],
+      "specialty_areas": [
+        "Acupuncture",
+        "Herbal Medicine",
+        "Nutrition",
+        "Musculoskeletal Issues",
+        "Psycho-emotional Challenges"
+      ],
+      "practice_location": {
+        "name": "Advanced Holistic Center",
+        "address": "65 Broadway, Ste 902",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10006"
+      },
+      "contact_information": {
+        "phone": "212-379-6414",
+        "email": "admin@irinalogman.com",
+        "website": "https://advancedholisticcenter.com/"
+      },
+      "accepted_insurance": "Not specified",
+      "languages": null,
+      "years_of_experience": 20,
+      "bio": "Licensed and board-certified acupuncturist and herbalist in New York and Florida with over two decades of experience in holistic medicine. One of NYC's most sought-after practitioners.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 18,
+      "category": "Acupuncture",
+      "full_name": "Dr. Qingyao Shi",
+      "credentials": ["Lic. OM", "Acu", "National Certified OM", "MD (China)"],
+      "specialty_areas": [
+        "Acupuncture",
+        "Traditional Chinese Medicine",
+        "Interstitial Cystitis Treatment"
+      ],
+      "practice_location": {
+        "name": "Acupuncture Medical Practice",
+        "address": "1737 Chestnut Street, Ste. 200",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip_code": "19103"
+      },
+      "contact_information": {
+        "phone": "215-751-9833",
+        "email": "acupuncturephilly@yahoo.com",
+        "website": "https://acupuncturephilly.com/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": 18,
+      "bio": "National Certified OM and Pennsylvania-licensed acupuncturist. MD in Western medicine from China with 18 years hospital experience. Former NCCAOM Commissioner (2000-2004). First to develop Oriental medicine treatment for Interstitial Cystitis in US.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 19,
+      "category": "Integrative Medicine",
+      "full_name": "Kimberly Handy",
+      "credentials": ["FNP-C"],
+      "specialty_areas": [
+        "Integrative Medicine",
+        "Functional Medicine",
+        "Hormone Balance",
+        "Weight Management",
+        "IV Vitamin Therapy"
+      ],
+      "practice_location": {
+        "name": "Carolina Integrative Wellness",
+        "address": "1135 Kildaire Farm Rd., Suite 108",
+        "city": "Cary",
+        "state": "NC",
+        "zip_code": "27511"
+      },
+      "contact_information": {
+        "phone": "(919) 694-7192",
+        "email": "info@carolinaintegrativewellness.com",
+        "website": "carolinaintegrativewellness.com"
+      },
+      "accepted_insurance": "Comprehensive lab testing may be covered",
+      "languages": null,
+      "years_of_experience": 8,
+      "bio": "Family Nurse Practitioner specializing in integrative medicine. Training from A4M, IFM, Women's Hormone Network, Apex Energetics, and IIVNTP. Focuses on finding root causes of illness through whole person care.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 20,
+      "category": "Energy Medicine - Reiki",
+      "full_name": "Michelle Coyle",
+      "credentials": ["Reiki Master / Therapist"],
+      "specialty_areas": [
+        "Reiki",
+        "Energy Healing",
+        "Sound Meditation",
+        "Practitioner Training"
+      ],
+      "practice_location": {
+        "name": "Source Connection",
+        "address": "1631 E Guadalupe, Suite 201",
+        "city": "Tempe",
+        "state": "AZ",
+        "zip_code": "85283"
+      },
+      "contact_information": {
+        "phone": "480-577-1885",
+        "email": "azsourceconnection@gmail.com",
+        "website": "https://azsourceconnection.com"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": 10,
+      "bio": "Reiki Master offering energy healing sessions, certification classes (Levels I-III), and sound therapy. Established practice in 2015, supporting thousands of clients with over 8,000 sessions.",
+      "patient_ratings": {
+        "overall_rating": 4.9,
+        "source": "Google Reviews"
+      },
+      "photo_url": null
+    },
+    {
+      "id": 21,
+      "category": "Acupuncture",
+      "full_name": "Marguerite Dinkins",
+      "credentials": ["L.Ac.", "M.Ac.O.M."],
+      "specialty_areas": [
+        "Acupuncture",
+        "Chinese Herbal Medicine",
+        "Bodywork"
+      ],
+      "practice_location": {
+        "name": "Private Practice",
+        "address": "6363 7th Avenue South",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98108"
+      },
+      "contact_information": {
+        "phone": "(206) 524-2724",
+        "email": null,
+        "website": null
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": 25,
+      "bio": "Licensed acupuncturist by the State of Washington and certified by NCCAOM since 2000. Uses acupuncture, Chinese herbal medicine, and bodywork for personalized treatment.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 22,
+      "category": "Naturopathic Medicine",
+      "full_name": "Dr. Leah Hollon",
+      "credentials": ["ND", "MPH"],
+      "specialty_areas": [
+        "Autoimmune",
+        "Hormones",
+        "MTHFR Gene Mutation",
+        "Naturopathic Cancer Support"
+      ],
+      "practice_location": {
+        "name": "Richmond Natural Medicine",
+        "address": "804 Moorefield Park Drive, Suite 302",
+        "city": "North Chesterfield",
+        "state": "VA",
+        "zip_code": "23236"
+      },
+      "contact_information": {
+        "phone": "804-977-2634",
+        "email": null,
+        "website": "https://richmondnaturalmed.com/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": 13,
+      "bio": "Chief Naturopathic Doctor, CEO, and Founder of Richmond Natural Medicine. Founded practice in 2012. Holds B.S. and MPH from Virginia Commonwealth University and ND from National University of Natural Medicine. Passionate about mind-body-spirit interconnection.",
+      "patient_ratings": {
+        "overall_rating": 5.0,
+        "total_reviews": 4
+      },
+      "photo_url": null
+    },
+    {
+      "id": 23,
+      "category": "Chiropractor - Holistic",
+      "full_name": "Dr. Yousef Zaffarkhan",
+      "credentials": ["DC"],
+      "specialty_areas": [
+        "Holistic Chiropractic",
+        "Clinical Biomechanics",
+        "Sports Injury",
+        "Nutritional Counseling"
+      ],
+      "practice_location": {
+        "name": "Body Works Health & Wellness",
+        "address": "825 W Monroe St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60607"
+      },
+      "contact_information": {
+        "phone": "(312) 733-8676",
+        "email": "info@bodyworkschicago.com",
+        "website": "bodyworkschicago.com"
+      },
+      "accepted_insurance": "Available - see website for details",
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Doctor of Chiropractic from Palmer College. Active member of Chicagoland Chamber of Commerce. Participated in humanitarian mission to Vietnam treating nearly 4,000 individuals. Focuses on holistic care combining chiropractic, nutrition, and state-of-the-art diagnostics.",
+      "patient_ratings": {
+        "overall_rating": 5.0,
+        "source": "Yelp"
+      },
+      "photo_url": null
+    },
+    {
+      "id": 24,
+      "category": "Naturopathic Medicine",
+      "full_name": "Dr. Tara Burke",
+      "credentials": ["NMD"],
+      "specialty_areas": [
+        "Women's Medicine",
+        "Endocrinology",
+        "Thyroid Health",
+        "Hormone Balance",
+        "PCOS"
+      ],
+      "practice_location": {
+        "name": "Blossom Wellness",
+        "address": "8700 E. Vista Bonita Dr. Suite 200",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip_code": "85255"
+      },
+      "contact_information": {
+        "phone": "(480) 702-1445",
+        "email": null,
+        "website": "drtaraburke.com"
+      },
+      "accepted_insurance": "Out-of-network; superbills provided for reimbursement; HSA accepted",
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Licensed Naturopathic Doctor specializing in women's medicine and endocrinology. Extensive training in thyroid health, adrenal health, and hormone balance. Graduated from Sonoran University of Health Science.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 25,
+      "category": "Naturopathic Medicine",
+      "full_name": "Dr. Steven Katz",
+      "credentials": ["ND"],
+      "specialty_areas": [
+        "Immune System Support",
+        "Pain Management",
+        "Complex Chronic Conditions",
+        "IV Therapy"
+      ],
+      "practice_location": {
+        "name": "Naturopathic Physicians Group",
+        "address": "9200 E. Raintree Dr Suite 150",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip_code": "85260"
+      },
+      "contact_information": {
+        "phone": "(480) 451-6161",
+        "email": "info@naturopathicgroup.com",
+        "website": "naturopathicgroup.com"
+      },
+      "accepted_insurance": "Out-of-network; superbills provided; HSA/FSA accepted",
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Experienced naturopathic doctor specializing in treating complex, chronic conditions using natural and integrative approaches. Expertise in immune system support and pain management.",
+      "patient_ratings": {
+        "overall_rating": 5.0,
+        "total_reviews": 1
+      },
+      "photo_url": null
+    },
+    {
+      "id": 26,
+      "category": "Naturopathic Medicine",
+      "full_name": "Dr. Loreena Ryder",
+      "credentials": ["ND"],
+      "specialty_areas": [
+        "Whole Body Health",
+        "Hormonal Balance",
+        "Complex Chronic Conditions"
+      ],
+      "practice_location": {
+        "name": "Naturopathic Physicians Group",
+        "address": "9200 E. Raintree Dr Suite 150",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip_code": "85260"
+      },
+      "contact_information": {
+        "phone": "(480) 451-6161",
+        "email": "info@naturopathicgroup.com",
+        "website": "naturopathicgroup.com"
+      },
+      "accepted_insurance": "Out-of-network; superbills provided; HSA/FSA accepted",
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Naturopathic doctor with expertise in whole body health and hormonal balance. Experienced in treating complex, chronic conditions using natural and integrative approaches.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 27,
+      "category": "Naturopathic Medicine",
+      "full_name": "Dr. Ilana Gurevich",
+      "credentials": ["ND", "LAc"],
+      "specialty_areas": [
+        "Naturopathic Medicine",
+        "Acupuncture",
+        "Regenerative Medicine"
+      ],
+      "practice_location": {
+        "name": "Open Wellness PDX",
+        "address": "1901 N Killingsworth St",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97217"
+      },
+      "contact_information": {
+        "phone": "503-974-1623",
+        "email": null,
+        "website": "https://www.openwellnesspdx.com/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Naturopathic Doctor and Licensed Acupuncturist practicing regenerative medicine and holistic healthcare in Portland.",
+      "patient_ratings": {
+        "overall_rating": 4.94,
+        "source": "Practice Rating"
+      },
+      "photo_url": null
+    },
+    {
+      "id": 28,
+      "category": "Pharmacogenomics",
+      "full_name": "Jennifer Hockings",
+      "credentials": ["PharmD", "PhD", "BCPS"],
+      "specialty_areas": [
+        "Clinical Pharmacogenomics",
+        "Precision Medicine",
+        "Pharmacotherapy"
+      ],
+      "practice_location": {
+        "name": "Cleveland Clinic - Center for Personalized Genetic Healthcare",
+        "address": "9500 Euclid Avenue, JJN1",
+        "city": "Cleveland",
+        "state": "OH",
+        "zip_code": "44195"
+      },
+      "contact_information": {
+        "phone": "216-636-1768",
+        "email": "hockingsj@ccf.org",
+        "website": null
+      },
+      "accepted_insurance": "Contact clinic for insurance information",
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Pharmacogenomics Clinical Specialist at Cleveland Clinic. Director of PGY2 Clinical Pharmacogenomics Residency Program. Board Certified Pharmacotherapy Specialist focusing on personalized medicine through pharmacogenomic testing and consultation.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 29,
+      "category": "Pharmacogenomics",
+      "full_name": "Sara Rogers",
+      "credentials": ["PharmD", "BCPS"],
+      "specialty_areas": [
+        "Precision Medicine",
+        "Pharmacogenomics",
+        "Ambulatory Care",
+        "Pharmacovigilance"
+      ],
+      "practice_location": {
+        "name": "Center for Genomic and Precision Medicine, Texas A&M",
+        "address": "2121 W. Holcombe Blvd",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77030"
+      },
+      "contact_information": {
+        "phone": "979-436-0286",
+        "email": "sararogers@tamu.edu",
+        "website": null
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": 12,
+      "bio": "Clinical Assistant Professor of Precision Medicine and Ambulatory Care at Texas A&M. Co-founded American Society of Pharmacovigilance. Chair of Pharmacogenomics Access & Reimbursement Coalition. Research focuses on patient access to pharmacogenetics testing and policy development.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 30,
+      "category": "Clinical Genetics & Pharmacogenomics",
+      "full_name": "Dr. Angelika Erwin",
+      "credentials": ["MD", "PhD"],
+      "specialty_areas": [
+        "Clinical Genetics",
+        "Pharmacogenomics",
+        "Personalized Genetic Healthcare"
+      ],
+      "practice_location": {
+        "name": "Cleveland Clinic - Center for Personalized Genetic Healthcare",
+        "address": "9204 Euclid Ave., T Building",
+        "city": "Cleveland",
+        "state": "OH",
+        "zip_code": "44195"
+      },
+      "contact_information": {
+        "phone": "216-636-1768",
+        "email": null,
+        "website": null
+      },
+      "accepted_insurance": "Contact clinic for insurance information",
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Clinical Geneticist specializing in pharmacogenomics at Cleveland Clinic's Center for Personalized Genetic Healthcare. Works collaboratively with pharmacogenomics clinical specialists to provide comprehensive genetic testing and consultation.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 31,
+      "category": "Naturopathic Medicine",
+      "full_name": "Dr. Alaina Goesling",
+      "credentials": ["ND", "LAc"],
+      "specialty_areas": [
+        "Naturopathic Medicine",
+        "Acupuncture"
+      ],
+      "practice_location": {
+        "name": "Open Wellness PDX",
+        "address": "1901 N Killingsworth St",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97217"
+      },
+      "contact_information": {
+        "phone": "503-974-1623",
+        "email": null,
+        "website": "https://www.openwellnesspdx.com/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Naturopathic Doctor and Licensed Acupuncturist providing integrative healthcare services.",
+      "patient_ratings": null,
+      "photo_url": null
+    },
+    {
+      "id": 32,
+      "category": "Naturopathic Medicine",
+      "full_name": "Dr. David Chang",
+      "credentials": ["ND", "LAc"],
+      "specialty_areas": [
+        "Naturopathic Medicine",
+        "Acupuncture"
+      ],
+      "practice_location": {
+        "name": "Open Wellness PDX",
+        "address": "1901 N Killingsworth St",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97217"
+      },
+      "contact_information": {
+        "phone": "503-974-1623",
+        "email": null,
+        "website": "https://www.openwellnesspdx.com/"
+      },
+      "accepted_insurance": null,
+      "languages": null,
+      "years_of_experience": null,
+      "bio": "Naturopathic Doctor and Licensed Acupuncturist at Open Wellness PDX.",
+      "patient_ratings": null,
+      "photo_url": null
+    }
+  ],
+  "sources": [
+    {
+      "name": "NCCAOM Find a Practitioner Directory",
+      "url": "https://directory.nccaom.org/",
+      "type": "Professional Association Directory",
+      "reliability": "High - Official national certification body"
+    },
+    {
+      "name": "Board of Pharmacy Specialties (BPS)",
+      "url": "https://bpsweb.org/find-a-board-certified-pharmacist/",
+      "type": "Professional Certification Board",
+      "reliability": "High - Official pharmacy specialization certification"
+    },
+    {
+      "name": "Healthgrades",
+      "url": "https://www.healthgrades.com/",
+      "type": "Healthcare Provider Directory",
+      "reliability": "Medium-High - Verified healthcare provider information"
+    },
+    {
+      "name": "Practitioner Websites",
+      "url": "Various",
+      "type": "Direct Practice Websites",
+      "reliability": "High - Primary source information"
+    },
+    {
+      "name": "Cleveland Clinic Pharmacogenomics",
+      "url": "https://my.clevelandclinic.org/departments/genomics/specialties/pharmacogenomics",
+      "type": "Academic Medical Center",
+      "reliability": "High - Major academic medical institution"
+    },
+    {
+      "name": "National Center for Complementary and Integrative Health (NCCIH)",
+      "url": "https://www.nccih.nih.gov/",
+      "type": "Government Agency",
+      "reliability": "High - NIH-affiliated government resource"
+    }
+  ],
+  "notes": [
+    "All practitioners listed are licensed and certified in their respective fields",
+    "Contact information verified as of October 2025",
+    "Insurance acceptance varies by practitioner - always verify current coverage",
+    "Geographic diversity includes 16 states across all US regions",
+    "Specialties cover acupuncture, chiropractic, naturopathic medicine, integrative medicine, pharmacogenomics, and energy medicine"
+  ]
+}

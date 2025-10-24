@@ -1,0 +1,1412 @@
+{
+  "metadata": {
+    "title": "US-Based Osteopathic and Naturopathic Practitioners Directory",
+    "description": "Comprehensive database of verified osteopathic (DO) and naturopathic (ND) doctors from trusted official sources",
+    "total_practitioners": 40,
+    "osteopathic_doctors_count": 18,
+    "naturopathic_doctors_count": 22,
+    "data_sources": [
+      "Healthgrades (www.healthgrades.com) - Osteopathic Doctors",
+      "HealthProfs.com (www.healthprofs.com) - Naturopathic Doctors"
+    ],
+    "states_covered": [
+      "NY",
+      "CA",
+      "FL",
+      "TX",
+      "AZ",
+      "WA",
+      "OR"
+    ],
+    "compilation_date": "2025-10-16",
+    "data_quality_notes": "All practitioners sourced from reputable medical directories. Contact information and insurance acceptance should be verified directly with providers."
+  },
+  "practitioners": [
+    {
+      "full_name": "Dr. Christopher Berard",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Family Medicine"
+      ],
+      "practice_location": {
+        "full_address": "200 E Main St Bldg A, Babylon, NY 11702",
+        "city": "Babylon",
+        "state": "NY",
+        "zip_code": "11702"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Board-certified family medicine physician providing comprehensive care",
+      "patient_ratings": {
+        "score": 4.8,
+        "total_reviews": 57,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ny-new-york/bay-shore"
+    },
+    {
+      "full_name": "Dr. Behrouz Farahmandpour",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Family Medicine"
+      ],
+      "practice_location": {
+        "full_address": "375 Commack Rd Unit A, Deer Park, NY 11729",
+        "city": "Deer Park",
+        "state": "NY",
+        "zip_code": "11729"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Family medicine specialist with focus on holistic patient care",
+      "patient_ratings": {
+        "score": 4.7,
+        "total_reviews": 27,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ny-new-york/bay-shore"
+    },
+    {
+      "full_name": "Dr. Patricia Happel",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Osteopathic Manipulative Therapy"
+      ],
+      "practice_location": {
+        "full_address": "267 Carleton Ave, Central Islip, NY 11722",
+        "city": "Central Islip",
+        "state": "NY",
+        "zip_code": "11722"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Specialized in osteopathic manipulative therapy with excellent patient outcomes",
+      "patient_ratings": {
+        "score": 5.0,
+        "total_reviews": 5,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ny-new-york/bay-shore"
+    },
+    {
+      "full_name": "Dr. Joseph Simone",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Osteopathic Manipulative Therapy"
+      ],
+      "practice_location": {
+        "full_address": "555 Little East Neck Rd Ste 2, West Babylon, NY 11704",
+        "city": "West Babylon",
+        "state": "NY",
+        "zip_code": "11704"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Expert in osteopathic manipulative therapy and hands-on treatments",
+      "patient_ratings": {
+        "score": 5.0,
+        "total_reviews": 2,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ny-new-york/bay-shore"
+    },
+    {
+      "full_name": "Dr. Anthony Termini",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Family Medicine"
+      ],
+      "practice_location": {
+        "full_address": "1350 Deer Park Ave, North Babylon, NY 11703",
+        "city": "North Babylon",
+        "state": "NY",
+        "zip_code": "11703"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Dedicated family medicine physician with high patient satisfaction",
+      "patient_ratings": {
+        "score": 4.8,
+        "total_reviews": 14,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ny-new-york/bay-shore"
+    },
+    {
+      "full_name": "Dr. Cynthia Kodama",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Neuromusculoskeletal Medicine"
+      ],
+      "practice_location": {
+        "full_address": "1499 Huntington Dr Ste 418, South Pasadena, CA 91030",
+        "city": "South Pasadena",
+        "state": "CA",
+        "zip_code": "91030"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Specialized in neuromusculoskeletal medicine and osteopathic manipulative treatment",
+      "patient_ratings": {
+        "score": 5.0,
+        "total_reviews": 1,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ca-california/los-angeles"
+    },
+    {
+      "full_name": "Dr. Robert Baker",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Neuromusculoskeletal Medicine"
+      ],
+      "practice_location": {
+        "full_address": "1801 W Olympic Blvd, Pasadena, CA 91199",
+        "city": "Pasadena",
+        "state": "CA",
+        "zip_code": "91199"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Expert in osteopathic manipulative medicine with focus on musculoskeletal conditions",
+      "patient_ratings": {
+        "score": 5.0,
+        "total_reviews": 3,
+        "attributes": [
+          "Listened/answered questions",
+          "Explains conditions well",
+          "Found trustworthy"
+        ]
+      },
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ca-california/los-angeles"
+    },
+    {
+      "full_name": "Dr. Katrina Babcock",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Physical Medicine & Rehabilitation"
+      ],
+      "practice_location": {
+        "full_address": "1106 N La Cienega Blvd, West Hollywood, CA 90069",
+        "city": "West Hollywood",
+        "state": "CA",
+        "zip_code": "90069"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Board-certified in physical medicine and rehabilitation",
+      "patient_ratings": {
+        "score": 4.7,
+        "total_reviews": 12,
+        "attributes": [
+          "Explains conditions well",
+          "Found trustworthy",
+          "Appt. wasn't rushed"
+        ]
+      },
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ca-california/los-angeles"
+    },
+    {
+      "full_name": "Dr. David Lee",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Osteopathic Manipulative Therapy"
+      ],
+      "practice_location": {
+        "full_address": "10 Congress St Ste 208, Pasadena, CA 91105",
+        "city": "Pasadena",
+        "state": "CA",
+        "zip_code": "91105"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Experienced osteopathic physician specializing in manipulative therapy",
+      "patient_ratings": {
+        "score": 4.2,
+        "total_reviews": 10,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ca-california/los-angeles"
+    },
+    {
+      "full_name": "Dr. Thomas Horowitz",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Osteopathic Manipulative Therapy"
+      ],
+      "practice_location": {
+        "full_address": "1300 N Vermont Ave Ste 610, Los Angeles, CA 90027",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90027"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Specializes in osteopathic manipulative therapy with excellent patient reviews",
+      "patient_ratings": {
+        "score": 4.6,
+        "total_reviews": 9,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ca-california/los-angeles"
+    },
+    {
+      "full_name": "Dr. Lauren Abratt",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Physical Medicine & Rehabilitation",
+        "Pain Medicine"
+      ],
+      "practice_location": {
+        "full_address": "1201 NW 16th St, Miami, FL 33125",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33125"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Specializes in physical medicine, rehabilitation, and pain management",
+      "patient_ratings": {
+        "score": 5.0,
+        "total_reviews": 2,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/fl-florida/miami"
+    },
+    {
+      "full_name": "Dr. Jeffrey Baker",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Osteopathic Manipulative Therapy"
+      ],
+      "practice_location": {
+        "full_address": "162 NE 25th St Ste 103, Miami, FL 33137",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33137"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Highly-rated osteopathic manipulative therapy specialist",
+      "patient_ratings": {
+        "score": 4.6,
+        "total_reviews": 11,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/fl-florida/miami"
+    },
+    {
+      "full_name": "Dr. Jader Harlow",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Neuromusculoskeletal Medicine"
+      ],
+      "practice_location": {
+        "full_address": "6100 Blue Lagoon Dr Ste 365, Miami, FL 33126",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33126"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Neuromusculoskeletal medicine specialist with focus on holistic care",
+      "patient_ratings": {
+        "score": 4.6,
+        "total_reviews": 10,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/fl-florida/miami"
+    },
+    {
+      "full_name": "Dr. Payam Hakimi",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Family Medicine"
+      ],
+      "practice_location": {
+        "full_address": "9630 E Bay Harbor Dr, Bay Harbor Islands, FL 33154",
+        "city": "Bay Harbor Islands",
+        "state": "FL",
+        "zip_code": "33154"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Family medicine physician with excellent patient care standards",
+      "patient_ratings": {
+        "score": 5.0,
+        "total_reviews": 3,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/fl-florida/miami"
+    },
+    {
+      "full_name": "Dr. Gerardo Franco",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Family Medicine"
+      ],
+      "practice_location": {
+        "full_address": "5727 NW 7th St, Miami, FL 33126",
+        "city": "Miami",
+        "state": "FL",
+        "zip_code": "33126"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Experienced family medicine practitioner serving the Miami community",
+      "patient_ratings": {
+        "score": 3.8,
+        "total_reviews": 18,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/fl-florida/miami"
+    },
+    {
+      "full_name": "Dr. Grace Varas",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Internal Medicine",
+        "Palliative Medicine"
+      ],
+      "practice_location": {
+        "full_address": "5323 Antoine Dr, Houston, TX 77091",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77091"
+      },
+      "contact_information": {
+        "phone": "(713) 493-6437",
+        "email": "Not provided",
+        "website": "Iora Health Texas PLLC"
+      },
+      "accepted_insurance": "Please verify coverage with provider",
+      "languages_spoken": [
+        "English",
+        "Spanish"
+      ],
+      "years_of_experience": "20+ years",
+      "professional_bio": "Dr. Varas has experience with the breadth of community-based care in hospitals, clinics and home visits. She believes that healthcare should be holistic, team-based and patient-centered, especially as your medical care becomes more complicated. Graduated from University of North Texas Health Science Center Texas College of Osteopathic Medicine in 2003.",
+      "patient_ratings": {
+        "score": 4.7,
+        "total_reviews": 3,
+        "attributes": [
+          "Trusted provider's decisions",
+          "Explained conditions well",
+          "Listened/answered questions",
+          "Appointment wasn't rushed"
+        ]
+      },
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/physician/dr-grace-varas-3fd82"
+    },
+    {
+      "full_name": "Dr. Jeremy Fischer",
+      "credentials": "ND, LAc",
+      "specialty_areas": [
+        "Gastrointestinal issues",
+        "Neurological conditions",
+        "Heart disease",
+        "Diabetes",
+        "Pain syndromes",
+        "Chronic Fatigue",
+        "Infertility",
+        "Thyroid disorders",
+        "Mood disorders"
+      ],
+      "practice_location": {
+        "full_address": "Sherman Oaks, CA 91403",
+        "city": "Sherman Oaks",
+        "state": "CA",
+        "zip_code": "91403"
+      },
+      "contact_information": {
+        "phone": "(347) 650-3710",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Specializes in treating complex chronic conditions including IBS, ulcerative colitis, Crohn's disease, stroke, multiple sclerosis, atherosclerosis, and various other conditions using naturopathic and acupuncture approaches.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/california"
+    },
+    {
+      "full_name": "Dr. Simon Barker",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Primary care for children and adults"
+      ],
+      "practice_location": {
+        "full_address": "Pasadena, CA 91104",
+        "city": "Pasadena",
+        "state": "CA",
+        "zip_code": "91104"
+      },
+      "contact_information": {
+        "phone": "(626) 656-3907",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Provides comprehensive naturopathic primary care for patients of all ages.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/california"
+    },
+    {
+      "full_name": "Dr. Ashley Alexis",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Hormone imbalance",
+        "Menopause",
+        "Perimenopause",
+        "Hypothyroidism",
+        "Adrenal dysfunction",
+        "Irregular menstrual cycles"
+      ],
+      "practice_location": {
+        "full_address": "Vista, CA 92081",
+        "city": "Vista",
+        "state": "CA",
+        "zip_code": "92081"
+      },
+      "contact_information": {
+        "phone": "(619) 357-4850",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Specializes in women's hormone health using bioidentical hormone replacement therapy, nutrition, and herbal medicine.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/california"
+    },
+    {
+      "full_name": "Dr. Ilana Lewis",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Persistent complex health challenges",
+        "Digestive issues",
+        "Fatigue",
+        "Brain fog",
+        "Chronic infections"
+      ],
+      "practice_location": {
+        "full_address": "Los Angeles, CA 90027",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90027"
+      },
+      "contact_information": {
+        "phone": "(323) 894-2933",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "LGBTQIA+ affirming practice focusing on uncovering root causes of persistent health challenges. Offers both in-person (Los Angeles) and telehealth (California) services.",
+      "patient_ratings": null,
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/california"
+    },
+    {
+      "full_name": "Dr. Heather Tynan",
+      "credentials": "ND, MSTOM, DACM, LAc",
+      "specialty_areas": [
+        "Gastrointestinal health",
+        "Dermatology",
+        "Autoimmunity",
+        "Diabetes",
+        "Cardiovascular disease"
+      ],
+      "practice_location": {
+        "full_address": "San Diego, CA 92126",
+        "city": "San Diego",
+        "state": "CA",
+        "zip_code": "92126"
+      },
+      "contact_information": {
+        "phone": "(858) 462-5413",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Primary care doctor treating patients of all ages using diet and lifestyle counseling, acupuncture, herbal medicine, supplementation, homeopathic remedies, and flower essences. Offers both telemedicine and in-person appointments.",
+      "patient_ratings": null,
+      "telehealth_available": true,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/california"
+    },
+    {
+      "full_name": "Dr. Jason L Allen",
+      "credentials": "NMD",
+      "specialty_areas": [
+        "Physical medicine",
+        "Integrative pain specialist",
+        "Body mechanics",
+        "Joint and Soft Tissue Manipulation"
+      ],
+      "practice_location": {
+        "full_address": "Tucson, AZ 85742",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip_code": "85742"
+      },
+      "contact_information": {
+        "phone": "(520) 447-4492",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Integrative pain specialist utilizing trigger point therapy, prolotherapy, shockwave therapy, hyperbaric oxygen therapy, nutrition, botanical therapies, and PRP treatments.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/arizona"
+    },
+    {
+      "full_name": "Dr. Rachel Rhodes",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Mental health concerns",
+        "Depression",
+        "Anxiety",
+        "OCD",
+        "Psychotherapy"
+      ],
+      "practice_location": {
+        "full_address": "Scottsdale, AZ 85251",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip_code": "85251"
+      },
+      "contact_information": {
+        "phone": "(480) 442-5913",
+        "email": "Not provided",
+        "website": "AZ Health Path"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Provides holistic care combining psychotherapy, naturopathic medical services, counseling, nutraceutical supplementation, acupuncture, IV therapy, and herbal/homeopathic prescriptions.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/arizona"
+    },
+    {
+      "full_name": "Dr. Kiera Lane",
+      "credentials": "NMD, LAc, DiplAc, FABORM",
+      "specialty_areas": [
+        "Primary care provider",
+        "Fertility (men and women)",
+        "Acupuncture"
+      ],
+      "practice_location": {
+        "full_address": "Chandler, AZ 85224",
+        "city": "Chandler",
+        "state": "AZ",
+        "zip_code": "85224"
+      },
+      "contact_information": {
+        "phone": "(480) 452-1005",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Board-certified in Oriental reproductive medicine, specializing in fertility assistance for both men and women using naturopathic medicine and acupuncture.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/arizona"
+    },
+    {
+      "full_name": "Dr. Carla Louise Briante",
+      "credentials": "MSc, NMD",
+      "specialty_areas": [
+        "Pediatric and adult mental health",
+        "Women's health",
+        "Acupuncture",
+        "Botanical medicine",
+        "Bioidentical hormone replacement"
+      ],
+      "practice_location": {
+        "full_address": "Phoenix, AZ 85014",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85014"
+      },
+      "contact_information": {
+        "phone": "(602) 806-9663",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "9 years (graduated 2016)",
+      "professional_bio": "Board-Certified naturopathic primary care physician with Masters in Statistics. Adjunct faculty at Sonoran University. Specializes in pediatric and adult mental health, women's health, acupuncture, botanical medicine, and bioidentical hormone replacement.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/arizona"
+    },
+    {
+      "full_name": "Dr. Michael Uzick",
+      "credentials": "NMD, FABNO",
+      "specialty_areas": [
+        "Chronic degenerative diseases",
+        "Cancer",
+        "Oncology"
+      ],
+      "practice_location": {
+        "full_address": "Tucson, AZ 85719",
+        "city": "Tucson",
+        "state": "AZ",
+        "zip_code": "85719"
+      },
+      "contact_information": {
+        "phone": "(520) 223-9569",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Board-certified naturopathic oncologist, professor at SCNM, board of directors for OncANP. Passionate about cancer treatment and chronic degenerative diseases.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/arizona"
+    },
+    {
+      "full_name": "Dr. Elise Wong",
+      "credentials": "ND, MAc, LAc",
+      "specialty_areas": [
+        "Fertility",
+        "Pregnancy support",
+        "Postpartum care"
+      ],
+      "practice_location": {
+        "full_address": "Olympia, WA 98506",
+        "city": "Olympia",
+        "state": "WA",
+        "zip_code": "98506"
+      },
+      "contact_information": {
+        "phone": "(360) 972-0316",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Passionate about helping people get pregnant, supporting them through pregnancy and assisting through postpartum. Specializes in aiding families through their fertility journey.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/washington"
+    },
+    {
+      "full_name": "Dr. Kate Kass",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Men's and women's hormone health",
+        "Andropause",
+        "Erectile Dysfunction",
+        "Menopause",
+        "Bioidentical hormones",
+        "Sexual health"
+      ],
+      "practice_location": {
+        "full_address": "Bellevue, WA 98005",
+        "city": "Bellevue",
+        "state": "WA",
+        "zip_code": "98005"
+      },
+      "contact_information": {
+        "phone": "(425) 615-7038",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Functional medicine physician specializing in hormone health, sexual health, and regenerative medicine. Treats menopause, irregular periods, thyroid dysfunction, low testosterone, gastrointestinal issues, food allergies, IBS, and SIBO.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/washington"
+    },
+    {
+      "full_name": "Dr. Adam Geiger",
+      "credentials": "ND, RMSK",
+      "specialty_areas": [
+        "Musculoskeletal ultrasound",
+        "Orthopedic medicine",
+        "Regenerative medicine",
+        "Prolotherapy"
+      ],
+      "practice_location": {
+        "full_address": "Seattle, WA 98109",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98109"
+      },
+      "contact_information": {
+        "phone": "(206) 384-4942",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "20 years (graduated 2005)",
+      "professional_bio": "Graduated from University of Michigan with honors in biochemistry and completed Naturopathic Medicine at Bastyr University in 2005. Two-year residency in nutritional and orthopedic medicine. Specializes in musculoskeletal ultrasound and regenerative orthopedic medicine.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/washington"
+    },
+    {
+      "full_name": "Dr. Colleen Jamieson",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Chronic fatigue",
+        "Women's health",
+        "Digestive health",
+        "Depression",
+        "Anxiety"
+      ],
+      "practice_location": {
+        "full_address": "Seattle, WA 98112",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98112"
+      },
+      "contact_information": {
+        "phone": "(206) 350-6157",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Combines hands-on healing techniques—craniosacral therapy and visceral manipulation—with counseling, homeopathy and botanical medicine. Creates a safe environment for holistic healing.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/washington"
+    },
+    {
+      "full_name": "Dr. Claire Zimmerman",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Digestive health",
+        "Autoimmune illness",
+        "Environmental medicine",
+        "Thyroid conditions",
+        "Food allergies"
+      ],
+      "practice_location": {
+        "full_address": "Seattle, WA 98112",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98112"
+      },
+      "contact_information": {
+        "phone": "(206) 866-2467",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Primary care physician with emphasis on digestive health, autoimmune illness, environmental medicine, mind-body medicine, fatigue, thyroid conditions, food allergies, anxiety, depression, stress, nutrition, detoxification, and preventative medicine.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/washington"
+    },
+    {
+      "full_name": "Dr. Rose Paisley",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Integrative cancer care",
+        "Endocrinology",
+        "Gastroenterology",
+        "Nutrition",
+        "Mental and emotional well-being"
+      ],
+      "practice_location": {
+        "full_address": "Portland, OR 97211",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97211"
+      },
+      "contact_information": {
+        "phone": "Not provided",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "22 years (graduated 2002)",
+      "professional_bio": "Graduated in 2002, helping patients identify and create their optimal health with naturopathic medicine. Expertise in integrative cancer care, endocrinology, gastroenterology, nutrition, and mental and emotional well-being.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/oregon"
+    },
+    {
+      "full_name": "Dr. April Voves",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Digestive issues",
+        "Women's health",
+        "Anxiety",
+        "Depression",
+        "Insomnia",
+        "Headaches",
+        "Fibromyalgia",
+        "Infertility"
+      ],
+      "practice_location": {
+        "full_address": "Wilsonville, OR 97070",
+        "city": "Wilsonville",
+        "state": "OR",
+        "zip_code": "97070"
+      },
+      "contact_information": {
+        "phone": "(503) 832-4822",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Licensed Naturopathic Physician providing high quality, individualized, evidence informed medicine using both conventional and alternative therapies. Addresses symptoms and underlying causes of conditions.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/oregon"
+    },
+    {
+      "full_name": "Dr. Amber Anne Walz",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Women's health",
+        "Environmental health",
+        "Sports medicine",
+        "Mental health",
+        "Hormone management"
+      ],
+      "practice_location": {
+        "full_address": "Tualatin, OR 97062",
+        "city": "Tualatin",
+        "state": "OR",
+        "zip_code": "97062"
+      },
+      "contact_information": {
+        "phone": "(971) 306-5384",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Clinical focus in women's health, environmental health, sports medicine, and mental health. Provides general medicine, chronic illness care, hormone management, preconception care, weight management, corrective exercise, CST, NET, AK, and therapeutic injection therapies.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/oregon"
+    },
+    {
+      "full_name": "Dr. Eliot W. Edwards",
+      "credentials": "ND, FABNO",
+      "specialty_areas": [
+        "Integrative Cancer Specialist",
+        "Integrative oncology (all cancer types)"
+      ],
+      "practice_location": {
+        "full_address": "Portland, OR 97219",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97219"
+      },
+      "contact_information": {
+        "phone": "(503) 543-1453",
+        "email": "Not provided",
+        "website": "Sage Cancer Care"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "21+ years",
+      "professional_bio": "Board-certified naturopathic oncologist with over 21 years of practice. Practiced alongside medical oncologists at Cancer Treatment Centers of America (2009-2017). Focuses on integrative oncology, seeing adult patients fighting all cancer types.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/oregon"
+    },
+    {
+      "full_name": "Dr. Colleen Amann-Shah",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Acute care",
+        "Primary care (all ages)",
+        "Peri-menopause and menopause",
+        "Chronic conditions (diabetes, hypertension, hyperlipidemia)"
+      ],
+      "practice_location": {
+        "full_address": "Tigard, OR 97224",
+        "city": "Tigard",
+        "state": "OR",
+        "zip_code": "97224"
+      },
+      "contact_information": {
+        "phone": "(971) 316-5901",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "12 years",
+      "professional_bio": "Board-certified naturopathic primary care physician with 12 years of experience providing acute and primary care to patients of all ages. Special interests in peri-menopause/menopause and evidence-based treatment for chronic conditions.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/oregon"
+    },
+    {
+      "full_name": "Dr. Michael Terzella",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Neuromusculoskeletal Medicine"
+      ],
+      "practice_location": {
+        "full_address": "267 Carleton Ave, Central Islip, NY 11722",
+        "city": "Central Islip",
+        "state": "NY",
+        "zip_code": "11722"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Neuromusculoskeletal medicine specialist with perfect patient satisfaction ratings",
+      "patient_ratings": {
+        "score": 5.0,
+        "total_reviews": 2,
+        "attributes": [
+          "Appt. wasn't rushed",
+          "Listened/answered questions",
+          "Explains conditions well"
+        ]
+      },
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ny-new-york/bay-shore"
+    },
+    {
+      "full_name": "Dr. Charles Smutny III",
+      "credentials": "DO",
+      "specialty_areas": [
+        "Osteopathic Manipulative Therapy"
+      ],
+      "practice_location": {
+        "full_address": "717 Larkfield Rd, Commack, NY 11725",
+        "city": "Commack",
+        "state": "NY",
+        "zip_code": "11725"
+      },
+      "contact_information": {
+        "phone": "Available via Healthgrades",
+        "email": "Not provided",
+        "website": "https://www.healthgrades.com"
+      },
+      "accepted_insurance": "Please verify with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Highly-rated osteopathic manipulative therapy specialist with excellent patient trust",
+      "patient_ratings": {
+        "score": 5.0,
+        "total_reviews": 4,
+        "attributes": [
+          "Listened/answered questions",
+          "Explains conditions well",
+          "Found trustworthy"
+        ]
+      },
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "Healthgrades",
+      "source_url": "https://www.healthgrades.com/neuromusculoskeletal-medicine-directory/ny-new-york/bay-shore"
+    },
+    {
+      "full_name": "Dr. Michael Hummel",
+      "credentials": "ND",
+      "specialty_areas": [
+        "Natural healing",
+        "Holistic wellness (physical, mental, emotional, energetic, spiritual)"
+      ],
+      "practice_location": {
+        "full_address": "Ashland, OR 97520",
+        "city": "Ashland",
+        "state": "OR",
+        "zip_code": "97520"
+      },
+      "contact_information": {
+        "phone": "(541) 641-8999",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Mission is to empower individuals to achieve vibrant, sustainable health through natural healing. Provides expert consultations and accessible educational resources.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/oregon"
+    },
+    {
+      "full_name": "Dr. Valentina Benitez",
+      "credentials": "ND, LAc",
+      "specialty_areas": [
+        "Family medicine",
+        "Pediatrics (newborn and up)",
+        "Sports medicine",
+        "Prenatal care",
+        "Postpartum care"
+      ],
+      "practice_location": {
+        "full_address": "Portland, OR 97232",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97232"
+      },
+      "contact_information": {
+        "phone": "(971) 307-9426",
+        "email": "Not provided",
+        "website": "Available via HealthProfs"
+      },
+      "accepted_insurance": "Generally not covered; check with provider",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Provides individualized and holistic approach to family medicine, pediatrics, sports medicine, prenatal and postpartum care. Trained in holistic pelvic floor and shiatsu massage.",
+      "patient_ratings": null,
+      "telehealth_available": false,
+      "photo_available": false,
+      "data_source": "HealthProfs.com",
+      "source_url": "https://www.healthprofs.com/us/naturopaths/oregon"
+    }
+  ]
+}

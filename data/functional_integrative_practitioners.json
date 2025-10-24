@@ -1,0 +1,1589 @@
+{
+  "metadata": {
+    "collection_date": "2025-10-16",
+    "total_practitioners": 33,
+    "states_covered": [
+      "AZ",
+      "CA",
+      "CO",
+      "FL",
+      "GA",
+      "IL",
+      "MA",
+      "MI",
+      "NC",
+      "NY",
+      "OR",
+      "PA",
+      "TX",
+      "WA"
+    ],
+    "data_sources": [
+      "Institute for Functional Medicine (IFM) - Individual Practice Websites",
+      "American Board of Integrative Medicine (ABOIM) - Individual Practice Websites",
+      "Academy of Integrative Health & Medicine (AIHM) - Individual Practice Websites",
+      "Individual Functional Medicine Practice Websites"
+    ],
+    "note": "Data collected from official practitioner practice websites and verified sources"
+  },
+  "practitioners": [
+    {
+      "id": 1,
+      "full_name": "Dr. Bojana Jankovic Weatherly",
+      "credentials": [
+        "MD",
+        "Fellow of the American College of Physicians"
+      ],
+      "certifications": [
+        "Board Certified in Internal Medicine",
+        "Board Certified in Integrative Medicine",
+        "Certified in Functional Medicine (IFM)"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Internal Medicine",
+        "Integrative Medicine",
+        "Thyroid Disease",
+        "Digestive Health (SIBO, IBS)",
+        "Anxiety",
+        "Depression",
+        "Autoimmune Conditions",
+        "Diabetes",
+        "Metabolic Optimization"
+      ],
+      "practice_address": {
+        "street": "245 5th Avenue, 3rd floor",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10016"
+      },
+      "contact": {
+        "phone": "(646) 627-8000",
+        "fax": "(646) 368-8019",
+        "email": "bridget@drbojana.com",
+        "website": "https://drbojana.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Award-winning physician, double-board certified in internal and integrative medicine, certified in functional medicine through IFM. Utilizes comprehensive investigative analysis to identify root causes of symptoms.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday – Friday: 9am – 5pm",
+      "visit_types": [
+        "In-office",
+        "Telemedicine"
+      ],
+      "licensed_states": [
+        "NY",
+        "CT",
+        "CA",
+        "FL",
+        "NJ"
+      ]
+    },
+    {
+      "id": 2,
+      "full_name": "Dr. Robert Kachko",
+      "credentials": [
+        "ND",
+        "LAc"
+      ],
+      "certifications": [
+        "Naturopathic Doctor",
+        "Licensed Acupuncturist",
+        "Somatic Experiencing Trauma Institute",
+        "Accelerated Resolution Therapy",
+        "American Society of Clinical Hypnosis",
+        "HeartMath Biofeedback Certification"
+      ],
+      "specialty_areas": [
+        "Mental Health Conditions",
+        "Chronic Pain",
+        "Digestive Disorders",
+        "Naturopathic Medicine",
+        "Integrative Medicine"
+      ],
+      "practice_address": {
+        "street": "345 7th Avenue, Suite 1601",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001"
+      },
+      "contact": {
+        "phone": "(917) 477-3538",
+        "email": "info@nycintegrative.com",
+        "website": "https://www.nycintegrative.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Extensive (Past President of AANP)",
+      "professional_bio": "Founder and Director of NY Center for Integrative Health. Past President of the American Association of Naturopathic Physicians. Expert in addressing mental health, chronic pain, and digestive disorders.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday - Friday, 09:00 am - 05:00 pm",
+      "visit_types": [
+        "In-office",
+        "Telemedicine"
+      ],
+      "licensed_states": [
+        "NY",
+        "CT"
+      ]
+    },
+    {
+      "id": 3,
+      "full_name": "Dr. Mylaine Riobé",
+      "credentials": [
+        "MD"
+      ],
+      "certifications": [
+        "Board Certified in Integrative Medicine (2017)",
+        "Board Certified in Obstetrics and Gynecology"
+      ],
+      "specialty_areas": [
+        "Integrative Medicine",
+        "Functional Medicine",
+        "Traditional Chinese Medicine",
+        "Bio-Identical Hormone Therapies",
+        "IV Therapies",
+        "Chronic Disease Management"
+      ],
+      "practice_address": {
+        "street": "345 7th Avenue, Suite 1601",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001"
+      },
+      "contact": {
+        "phone": "(917) 477-3538",
+        "email": "info@nycintegrative.com",
+        "website": "https://www.nycintegrative.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Over 20 years",
+      "professional_bio": "Columbia University graduate with medical degree from New York Medical College. Transitioned from conventional OB/GYN to integrative and functional medicine. Author of multiple books on integrative health.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday - Friday, 09:00 am - 05:00 pm",
+      "visit_types": [
+        "In-office",
+        "Telemedicine"
+      ],
+      "licensed_states": [
+        "NY",
+        "CT"
+      ],
+      "publications": [
+        "The Tao of Integrative Medicine (2016)",
+        "The Answer to Cancer (2016)",
+        "FAITH – Fearlessly Affirming and Intending to Transform Health (2021)"
+      ]
+    },
+    {
+      "id": 4,
+      "full_name": "Dr. Silvia Panitch",
+      "credentials": [
+        "MD or DO"
+      ],
+      "certifications": [
+        "Qualified in Western and Complementary Medicine specialties"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Integrative Medicine",
+        "Memory Loss",
+        "Parkinson's Disease",
+        "Personalized Nutrients Therapies",
+        "Autoimmune Diseases",
+        "Digestive Disorders",
+        "Mood Disorders",
+        "Women's Health"
+      ],
+      "practice_address": {
+        "street": "3344 N. Ashland Avenue",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60657"
+      },
+      "contact": {
+        "phone": "773-525-6595",
+        "email": null,
+        "website": "https://lakeviewintegrativemedicine.com"
+      },
+      "insurance_accepted": "Many different payment options and insurance accepted - contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "20+ years (founded clinic in 2002)",
+      "professional_bio": "Founder of Lakeview Integrative Medicine (established 2002). Provides comprehensive medical care using a functional and integrative approach to evaluate and treat medical conditions.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact office for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "IL"
+      ]
+    },
+    {
+      "id": 5,
+      "full_name": "Dr. Rachel Carlton Abrams",
+      "credentials": [
+        "MD",
+        "MHS",
+        "ABFP",
+        "ABoIM"
+      ],
+      "certifications": [
+        "Board Certified in Family Medicine",
+        "Board Certified in Integrative Medicine"
+      ],
+      "specialty_areas": [
+        "Integrative Medicine",
+        "Functional Medicine",
+        "Preventive Medicine",
+        "Herbal Medicine",
+        "Lifestyle Medicine",
+        "Holistic Health",
+        "Transformational Medicine"
+      ],
+      "practice_address": {
+        "street": "740 Front St., Suite 130",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip_code": "95060"
+      },
+      "contact": {
+        "phone": "831-465-9088",
+        "fax": "831-465-8528",
+        "email": "admin@santacruzintegrativemedicine.com",
+        "website": "https://www.santacruzintegrativemedicine.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "22+ years (7 years conventional, 15 years integrative)",
+      "professional_bio": "Stanford University graduate (Phi Beta Kappa), UCSF Medical Degree, UC Berkeley Masters in Holistic Health. Board Chair-elect of Academy of Integrative Health and Medicine (AIHM). Launched Transformational Medicine model in 2023.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday-Thursday: 9am - 5pm (closed 12:30pm - 1:30pm), Closed Fri-Sun",
+      "visit_types": [
+        "Membership-based practice"
+      ],
+      "licensed_states": [
+        "CA"
+      ]
+    },
+    {
+      "id": 6,
+      "full_name": "Dr. Adrianna Gonzalez",
+      "credentials": [
+        "DAOM",
+        "L.Ac."
+      ],
+      "certifications": [
+        "Doctor of Acupuncture and Oriental Medicine",
+        "Licensed Acupuncturist"
+      ],
+      "specialty_areas": [
+        "Acupuncture",
+        "Herbal Medicine"
+      ],
+      "practice_address": {
+        "street": "740 Front St., Suite 130",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip_code": "95060"
+      },
+      "contact": {
+        "phone": "831-465-9088",
+        "fax": "831-465-8528",
+        "email": "admin@santacruzintegrativemedicine.com",
+        "website": "https://www.santacruzintegrativemedicine.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Specialist in Acupuncture and Herbal Medicine at Santa Cruz Integrative Medicine.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday-Thursday: 9am - 5pm (closed 12:30pm - 1:30pm), Closed Fri-Sun",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "CA"
+      ]
+    },
+    {
+      "id": 7,
+      "full_name": "Dr. Aimée Shunney",
+      "credentials": [
+        "ND"
+      ],
+      "certifications": [
+        "Naturopathic Doctor"
+      ],
+      "specialty_areas": [
+        "Naturopathic Medicine"
+      ],
+      "practice_address": {
+        "street": "740 Front St., Suite 130",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip_code": "95060"
+      },
+      "contact": {
+        "phone": "831-465-9088",
+        "fax": "831-465-8528",
+        "email": "admin@santacruzintegrativemedicine.com",
+        "website": "https://www.santacruzintegrativemedicine.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Naturopathic Medicine specialist at Santa Cruz Integrative Medicine.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday-Thursday: 9am - 5pm (closed 12:30pm - 1:30pm), Closed Fri-Sun",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "CA"
+      ]
+    },
+    {
+      "id": 8,
+      "full_name": "Dr. Kyle Keene",
+      "credentials": [
+        "DO"
+      ],
+      "certifications": [
+        "Doctor of Osteopathic Medicine"
+      ],
+      "specialty_areas": [
+        "Osteopathic Medicine",
+        "Prolotherapy",
+        "PRP"
+      ],
+      "practice_address": {
+        "street": "740 Front St., Suite 130",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip_code": "95060"
+      },
+      "contact": {
+        "phone": "831-465-9088",
+        "fax": "831-465-8528",
+        "email": "admin@santacruzintegrativemedicine.com",
+        "website": "https://www.santacruzintegrativemedicine.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Osteopathic Medicine and Regenerative Medicine specialist at Santa Cruz Integrative Medicine.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday-Thursday: 9am - 5pm (closed 12:30pm - 1:30pm), Closed Fri-Sun",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "CA"
+      ]
+    },
+    {
+      "id": 9,
+      "full_name": "Dr. Jorina Elbers",
+      "credentials": [
+        "MD"
+      ],
+      "certifications": [
+        "Medical Doctor"
+      ],
+      "specialty_areas": [
+        "Holistic Integrative Neurology"
+      ],
+      "practice_address": {
+        "street": "740 Front St., Suite 130",
+        "city": "Santa Cruz",
+        "state": "CA",
+        "zip_code": "95060"
+      },
+      "contact": {
+        "phone": "831-465-9088",
+        "fax": "831-465-8528",
+        "email": "admin@santacruzintegrativemedicine.com",
+        "website": "https://www.santacruzintegrativemedicine.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Holistic Integrative Neurology specialist at Santa Cruz Integrative Medicine.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday-Thursday: 9am - 5pm (closed 12:30pm - 1:30pm), Closed Fri-Sun",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "CA"
+      ]
+    },
+    {
+      "id": 10,
+      "full_name": "Dr. Eldar Baigabatov",
+      "credentials": [
+        "MD"
+      ],
+      "certifications": [
+        "Board Certified in Internal Medicine",
+        "Board Certified in Aesthetic Medicine",
+        "IV Certification",
+        "Expert in BHRT and Regenerative Medicine"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Internal Medicine",
+        "Aesthetic Medicine",
+        "Integrative Medicine",
+        "Allergy Diagnosis",
+        "BHRT",
+        "Regenerative Medicine",
+        "Weight Management",
+        "IV Therapy"
+      ],
+      "practice_address": {
+        "street": "1002 S DILLARD ST, SUITE 106",
+        "city": "WINTER GARDEN",
+        "state": "FL",
+        "zip_code": "34787"
+      },
+      "contact": {
+        "phone": "407-347-9886",
+        "email": "Contact form available",
+        "website": "https://www.celebritymedcenter.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Graduate of St. George's University School of Medicine. Completed internal medicine residency at Long Island College Hospital. Member of American Academy of Anti-Aging Medicine.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday-Friday: 8:30am - 4:00pm, Closed Sat-Sun",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "FL"
+      ]
+    },
+    {
+      "id": 11,
+      "full_name": "Dr. Jenna Montana",
+      "credentials": [
+        "DC",
+        "MS",
+        "IFMCP"
+      ],
+      "certifications": [
+        "IFMCP (Institute for Functional Medicine Certified Practitioner)"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Nutrition",
+        "Acupuncture",
+        "Hormone Imbalances",
+        "Gastrointestinal Issues",
+        "Skin Conditions",
+        "Autoimmune Conditions",
+        "Thyroid Imbalances"
+      ],
+      "practice_address": {
+        "street": "PALM Health Center",
+        "city": "Dunedin",
+        "state": "FL",
+        "zip_code": "Not specified"
+      },
+      "contact": {
+        "phone": "540-755-0221",
+        "email": null,
+        "website": "https://www.cultivatewellnessva.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Certified functional medicine practitioner specializing in gut health, women's hormones, and stress management. Skilled in therapeutic diets including Paleo, Autoimmune Protocol, and Ketogenic.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office",
+        "Virtual"
+      ],
+      "licensed_states": [
+        "FL",
+        "VA"
+      ]
+    },
+    {
+      "id": 12,
+      "full_name": "Dr. David B. Tuchinsky",
+      "credentials": [
+        "D.C."
+      ],
+      "certifications": [
+        "Functional Medicine Practitioner"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Gastrointestinal Health",
+        "Autoimmune Diseases",
+        "Chronic Infections",
+        "Fatigue",
+        "Hormone Imbalances",
+        "Detoxification",
+        "Mental Health",
+        "Fibromyalgia",
+        "Hypothyroidism"
+      ],
+      "practice_address": {
+        "street": "105 Mariner Health Way Ste 208",
+        "city": "St. Augustine",
+        "state": "FL",
+        "zip_code": "32086"
+      },
+      "contact": {
+        "phone": "904-342-2783",
+        "email": null,
+        "website": "https://www.floridafunctionalmedicine.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "30 years",
+      "professional_bio": "Clinic Director and Founder of The Florida Center For Functional Medicine with 30 years of experience. Author of books on hypothyroidism and skin health. Offers comprehensive functional medicine programs.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office",
+        "Phone",
+        "Video"
+      ],
+      "licensed_states": [
+        "FL"
+      ],
+      "additional_locations": [
+        {
+          "city": "Jacksonville",
+          "state": "FL",
+          "zip": "32202",
+          "phone": "904-342-2783"
+        },
+        {
+          "city": "Weston",
+          "state": "FL",
+          "zip": "33331",
+          "phone": "954-639-9517"
+        },
+        {
+          "city": "Aventura",
+          "state": "FL",
+          "zip": "33180",
+          "phone": "305-257-8097"
+        },
+        {
+          "city": "Orlando",
+          "state": "FL",
+          "zip": "32814",
+          "phone": "407-794-0260"
+        },
+        {
+          "city": "West Palm Beach",
+          "state": "FL",
+          "zip": "33401",
+          "phone": "561-232-3397"
+        },
+        {
+          "city": "Naples",
+          "state": "FL",
+          "zip": "34110",
+          "phone": "239-748-0070"
+        },
+        {
+          "city": "Boca Raton",
+          "state": "FL",
+          "zip": "33431",
+          "phone": "561-235-7799"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "full_name": "Dr. Khan",
+      "credentials": [
+        "MD",
+        "IFMCP"
+      ],
+      "certifications": [
+        "IFM Certified Practitioner (IFMCP)"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Holistic Medicine",
+        "Internal Medicine",
+        "Primary Care",
+        "General Practice"
+      ],
+      "practice_address": {
+        "street": "255 Ed English Dr Suite A",
+        "city": "Shenandoah",
+        "state": "TX",
+        "zip_code": "77385"
+      },
+      "contact": {
+        "phone": "281-500-8581",
+        "fax": "281-817-0478",
+        "email": "info@ihawmd.com",
+        "website": "https://internalhealingandwellnessmd.com"
+      },
+      "insurance_accepted": "Cash-pay model for many services, contact office for insurance details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "11+ years (4 years hospitalist, 7 years primary care)",
+      "professional_bio": "Former staff hospitalist at Cleveland Clinic with roles at Texas Medical Center. Seven years as primary care physician. Embraced holistic and preventative approaches during COVID-19 pandemic.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday - Friday: 8 AM – 5 PM",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "TX"
+      ]
+    },
+    {
+      "id": 14,
+      "full_name": "Dr. Melinda Atienza",
+      "credentials": [
+        "DO",
+        "IFMCP"
+      ],
+      "certifications": [
+        "Board Certified in Internal Medicine",
+        "Board Certified in Obesity Medicine",
+        "IFMCP",
+        "Fellowship trained at Andrew Weil Center for Integrative Medicine"
+      ],
+      "specialty_areas": [
+        "Integrative Medicine",
+        "Functional Medicine",
+        "Bioidentical Hormone Therapy",
+        "Thyroid Disorders",
+        "GI Conditions",
+        "Mold Related Illnesses",
+        "Persistent Lyme Disease",
+        "Weight Loss"
+      ],
+      "practice_address": {
+        "street": "10752 N 89th Pl, Suite B213",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip_code": "85260"
+      },
+      "contact": {
+        "phone": "480-744-7110",
+        "email": null,
+        "website": "https://az-ifm.com/"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Board certified in Internal Medicine and Obesity Medicine. Fellowship trained at Andrew Weil Center for Integrative Medicine. Focuses on identifying root causes of illness through integrative and functional medicine approaches.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "AZ"
+      ]
+    },
+    {
+      "id": 15,
+      "full_name": "Dr. Jennifer J. Sosnowski",
+      "credentials": [
+        "MD",
+        "FAAFP",
+        "ABoIM",
+        "IFMCP"
+      ],
+      "certifications": [
+        "Board-Certified in Family Practice",
+        "Board-Certified in Integrative Medicine (ABoIM)",
+        "IFMCP",
+        "Fellow: American Academy of Family Physicians"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Integrative Medicine",
+        "Brain Treatment",
+        "Magnetic Resonance Therapy",
+        "Neurological Conditions",
+        "Autism",
+        "Depression",
+        "PTSD",
+        "Chronic Pain"
+      ],
+      "practice_address": {
+        "street": "7312 E Deer Valley Road, Suite 110",
+        "city": "Scottsdale",
+        "state": "AZ",
+        "zip_code": "85255"
+      },
+      "contact": {
+        "phone": "480-588-7787",
+        "email": "info@mvpmedicalcare.com",
+        "website": "https://mvpmedicalcare.com"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "English"
+      ],
+      "years_of_experience": "More than 20 years",
+      "professional_bio": "Valley's premier provider of integrative and functional medicine. Offers highly focused personal care with expertise in brain treatment and neurological conditions. Author of cookbook for special dietary needs.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "AZ"
+      ]
+    },
+    {
+      "id": 16,
+      "full_name": "Dr. Laurie Mischley",
+      "credentials": [
+        "ND",
+        "PhD",
+        "MPH"
+      ],
+      "certifications": [
+        "Naturopathic Doctor",
+        "PhD",
+        "MPH"
+      ],
+      "specialty_areas": [
+        "Parkinson's Management",
+        "Neurology",
+        "Naturopathic Medicine"
+      ],
+      "practice_address": {
+        "street": "2111 N. Northgate Way Suite 221",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98133"
+      },
+      "contact": {
+        "phone": "(206) 525-8012",
+        "fax": "206.525.8013",
+        "email": "info@seattleintegrativemedicine.com",
+        "website": "https://seattleintegrativemedicine.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Extensive",
+      "professional_bio": "Expert in Parkinson's disease management and neurology with advanced degrees in naturopathic medicine and public health.",
+      "photo_url": null,
+      "patient_ratings": "Highly rated (per testimonials)",
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "WA"
+      ]
+    },
+    {
+      "id": 17,
+      "full_name": "Dr. Marco Vespignani",
+      "credentials": [
+        "ND"
+      ],
+      "certifications": [
+        "Naturopathic Doctor"
+      ],
+      "specialty_areas": [
+        "Migraine Treatment",
+        "Naturopathic Medicine"
+      ],
+      "practice_address": {
+        "street": "2111 N. Northgate Way Suite 221",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98133"
+      },
+      "contact": {
+        "phone": "(206) 525-8012",
+        "fax": "206.525.8013",
+        "email": "info@seattleintegrativemedicine.com",
+        "website": "https://seattleintegrativemedicine.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Specialist in migraine treatment and naturopathic medicine at Seattle Integrative Medicine.",
+      "photo_url": null,
+      "patient_ratings": "Highly rated (per testimonials)",
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "WA"
+      ]
+    },
+    {
+      "id": 18,
+      "full_name": "Dr. Melissa McCarty",
+      "credentials": [
+        "ND"
+      ],
+      "certifications": [
+        "Naturopathic Doctor"
+      ],
+      "specialty_areas": [
+        "Women's Health",
+        "Naturopathic Medicine"
+      ],
+      "practice_address": {
+        "street": "2111 N. Northgate Way Suite 221",
+        "city": "Seattle",
+        "state": "WA",
+        "zip_code": "98133"
+      },
+      "contact": {
+        "phone": "(206) 525-8012",
+        "fax": "206.525.8013",
+        "email": "info@seattleintegrativemedicine.com",
+        "website": "https://seattleintegrativemedicine.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Women's health specialist at Seattle Integrative Medicine, known for kind and welcoming approach.",
+      "photo_url": null,
+      "patient_ratings": "Highly rated (per testimonials)",
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "WA"
+      ]
+    },
+    {
+      "id": 19,
+      "full_name": "Dr. Monique Martin",
+      "credentials": [
+        "MD"
+      ],
+      "certifications": [
+        "Fellowship trained",
+        "Board Certified in Integrative Medicine",
+        "Board Certified in Holistic Medicine",
+        "Board Certified in Functional Medicine",
+        "Board Certified in Internal Medicine"
+      ],
+      "specialty_areas": [
+        "Integrative Internal Medicine",
+        "Functional Medicine",
+        "Adrenal & Endocrine Health",
+        "Anti-Aging",
+        "BioIdentical Hormone Replacement Therapy",
+        "Cardiovascular Health",
+        "Detoxification",
+        "Digestive Health",
+        "Thyroid Dysfunctions"
+      ],
+      "practice_address": {
+        "street": "499 W. Belleview Ave",
+        "city": "Englewood",
+        "state": "CO",
+        "zip_code": "80110"
+      },
+      "contact": {
+        "phone": "(303) 762-7206",
+        "email": "Contact form available",
+        "website": "https://www.drmoniquemartin.com"
+      },
+      "insurance_accepted": "Out-of-network, works for patient not insurance company",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "30+ years (practicing since 1995)",
+      "professional_bio": "Practicing Integrative Internal Medicine since 1995, combining Conventional and Functional Medicine. Fellowship trained and board certified in multiple specialties. Grew up in Germany where holistic approaches are embraced.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "CO"
+      ]
+    },
+    {
+      "id": 20,
+      "full_name": "Dr. Susan D. Denny",
+      "credentials": [
+        "MD",
+        "MPH"
+      ],
+      "certifications": [
+        "Functional Medicine Certified"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Physician"
+      ],
+      "practice_address": {
+        "street": "3708 Forestview Rd, Suite 202",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip_code": "27612"
+      },
+      "contact": {
+        "phone": "919-999-0831",
+        "fax": "888-394-6442",
+        "email": null,
+        "website": "https://carolinatotalwellness.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Founder of Carolina Total Wellness, functional medicine certified physician with MD and MPH degrees.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "NC"
+      ]
+    },
+    {
+      "id": 21,
+      "full_name": "Dr. Didem Miraloglu",
+      "credentials": [
+        "MD",
+        "MS"
+      ],
+      "certifications": [
+        "Functional Medicine Certified"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Medical Director"
+      ],
+      "practice_address": {
+        "street": "3708 Forestview Rd, Suite 202",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip_code": "27612"
+      },
+      "contact": {
+        "phone": "919-999-0831",
+        "fax": "888-394-6442",
+        "email": null,
+        "website": "https://carolinatotalwellness.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Medical Director at Carolina Total Wellness, functional medicine certified physician.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "NC"
+      ]
+    },
+    {
+      "id": 22,
+      "full_name": "Dr. Elena Hart",
+      "credentials": [
+        "MD"
+      ],
+      "certifications": [
+        "Functional Medicine Certified"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Physician"
+      ],
+      "practice_address": {
+        "street": "3708 Forestview Rd, Suite 202",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip_code": "27612"
+      },
+      "contact": {
+        "phone": "919-999-0831",
+        "fax": "888-394-6442",
+        "email": null,
+        "website": "https://carolinatotalwellness.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Functional medicine certified physician at Carolina Total Wellness.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "NC"
+      ]
+    },
+    {
+      "id": 23,
+      "full_name": "Dr. Michael Citron",
+      "credentials": [
+        "MD"
+      ],
+      "certifications": [
+        "Board-certified in Emergency Medicine"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Emergency Medicine"
+      ],
+      "practice_address": {
+        "street": "5520 McNeely Dr. #204",
+        "city": "Raleigh",
+        "state": "NC",
+        "zip_code": "27612"
+      },
+      "contact": {
+        "phone": "(919) 740-6129",
+        "email": "info@foundationmed.com",
+        "website": "https://www.foundationmed.com"
+      },
+      "insurance_accepted": "Some tests covered, many therapies out-of-network",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "40+ years",
+      "professional_bio": "Medical Director at FoundationMED, board-certified in emergency medicine with extensive functional medicine experience.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "NC"
+      ]
+    },
+    {
+      "id": 24,
+      "full_name": "Dr. Zubiel",
+      "credentials": [
+        "Not specified"
+      ],
+      "certifications": [
+        "Functional Medicine Practitioner"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Nutrition",
+        "Lifestyle Medicine"
+      ],
+      "practice_address": {
+        "street": "491 Maple St Suite 307",
+        "city": "Danvers",
+        "state": "MA",
+        "zip_code": "01923"
+      },
+      "contact": {
+        "phone": "(978) 473-8015",
+        "email": null,
+        "website": "https://essexintegrativehealth.com"
+      },
+      "insurance_accepted": [
+        "Mass General Brigham Health Plan",
+        "Blue Cross Blue Shield"
+      ],
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Leads functional medicine consultations via telehealth for Massachusetts residents. Specializes in creating individualized health programs including dietary modifications and nutritional supplements.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "Telehealth only (for MA residents)"
+      ],
+      "licensed_states": [
+        "MA"
+      ]
+    },
+    {
+      "id": 25,
+      "full_name": "Dr. Elizabeth Board",
+      "credentials": [
+        "MD",
+        "IFMCP"
+      ],
+      "certifications": [
+        "Board Certified by Institute for Functional Medicine (IFMCP)"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Healthy Aging",
+        "Osteoporosis Treatment",
+        "Opiate Free Pain Management",
+        "Holistic Care"
+      ],
+      "practice_address": {
+        "street": "5755 North Point Parkway Suite 74",
+        "city": "Alpharetta",
+        "state": "GA",
+        "zip_code": "30022"
+      },
+      "contact": {
+        "phone_new_patients": "(770) 504-6197",
+        "phone_current_patients": "(770) 667-3006",
+        "fax": "(770) 667-3311",
+        "email_new_patients": "newpatient@atlantafunctionalmedicine.com",
+        "email_current_patients": "contactus@atlantafunctionalmedicine.com",
+        "website": "https://www.atlantafunctionalmedicine.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Extensive",
+      "professional_bio": "Board certified by the Institute for Functional Medicine. Combines traditional medicine with alternative therapies for optimal health and wellness. Special interests in healthy aging and pain management.",
+      "photo_url": null,
+      "patient_ratings": "Highly rated (per patient reviews)",
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "GA"
+      ]
+    },
+    {
+      "id": 26,
+      "full_name": "Dr. Bindiya Gandhi",
+      "credentials": [
+        "MD"
+      ],
+      "certifications": [
+        "Board Certified by American Board of Family Medicine",
+        "Board Certified by American Board of Integrative and Holistic Physicians"
+      ],
+      "specialty_areas": [
+        "Integrative Medicine",
+        "Holistic Medicine",
+        "Family Medicine",
+        "Functional Medicine"
+      ],
+      "practice_address": {
+        "street": "2786 North Decatur Road, Suite 230",
+        "city": "Decatur",
+        "state": "GA",
+        "zip_code": "30033"
+      },
+      "contact": {
+        "phone": "Contact for phone",
+        "email": null,
+        "website": "https://reviveatlmd.com"
+      },
+      "insurance_accepted": "Not contracted with health insurance companies",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Fellowship completed in 2016",
+      "professional_bio": "Double boarded by American Board of Family Medicine and American Board of Integrative and Holistic Physicians. Completed integrative medicine fellowship in 2016.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "GA"
+      ]
+    },
+    {
+      "id": 27,
+      "full_name": "Dr. Georgia Tetlow",
+      "credentials": [
+        "MD"
+      ],
+      "certifications": [
+        "ABPS Certified",
+        "ABPM&R Certified",
+        "IFM Practitioner",
+        "Main Line Today Top Doctor (2019)"
+      ],
+      "specialty_areas": [
+        "Integrative Medicine",
+        "Alternative Medicine",
+        "Functional Medicine",
+        "Mindfulness",
+        "Holistic Medicine",
+        "Herbal Medicine",
+        "Stress Reduction",
+        "Pain Management",
+        "Cancer Recovery"
+      ],
+      "practice_address": {
+        "street": "175 Strafford Ave, Bldg 4, Suite 222",
+        "city": "Wayne",
+        "state": "PA",
+        "zip_code": "19087"
+      },
+      "contact": {
+        "phone": "(610) 447-4722",
+        "fax": "610-982-8927",
+        "email": "info@philly-im.com",
+        "website": "https://philly-im.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "15+ years (since 2009)",
+      "professional_bio": "Founder of Philadelphia Integrative Medicine (established 2009). Specializes in broad spectrum of integrative and holistic medical approaches including functional medicine and stress reduction.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday-Friday: 8am-12pm, 1pm-4pm",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "PA"
+      ]
+    },
+    {
+      "id": 28,
+      "full_name": "Dr. Rina S Kapoor",
+      "credentials": [
+        "MD",
+        "ABOIM"
+      ],
+      "certifications": [
+        "ABOIM (American Board of Integrative Medicine)",
+        "Main Line Today's Top Doctor of 2024"
+      ],
+      "specialty_areas": [
+        "Integrative Medicine",
+        "Functional Medicine",
+        "Personalized GLP-1 Therapy",
+        "Gut Health",
+        "Hormone Imbalance",
+        "Eczema",
+        "Acne",
+        "Detoxification",
+        "Weight Loss",
+        "Cardiometabolic Health"
+      ],
+      "practice_address": {
+        "street": "1786 Wilmington West Chester Pike, Suite 100A",
+        "city": "Glen Mills",
+        "state": "PA",
+        "zip_code": "19342"
+      },
+      "contact": {
+        "phone": "610-358-3300",
+        "fax": "610-557-1957",
+        "email": null,
+        "website": "https://www.araintegrative.com/"
+      },
+      "insurance_accepted": "Not specified",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Leads ARA Integrative and Functional Medicine. Views each patient as genetically and biochemically unique. Combines conventional medicine, genetic testing, alternative treatments, and ancient healing methods. 2024 Top Doctor award.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Monday-Thursday: 9:00am - 4:00pm, Closed Fri-Sun",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "PA"
+      ]
+    },
+    {
+      "id": 29,
+      "full_name": "Dr. Ryan Minarik",
+      "credentials": [
+        "ND",
+        "LAc"
+      ],
+      "certifications": [
+        "Naturopathic Doctor",
+        "Licensed Acupuncturist"
+      ],
+      "specialty_areas": [
+        "Orthopedic Medicine",
+        "Sports Medicine"
+      ],
+      "practice_address": {
+        "street": "8113 SE 13th Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97202"
+      },
+      "contact": {
+        "phone": "(503) 232-5653",
+        "fax": "(503) 234-6094",
+        "email": null,
+        "website": "https://formhealthpdx.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Orthopedic Medicine and Sports Medicine Specialist at FoRM Health PDX.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Mon-Fri: 9am-6pm, Sat: 10am-2pm",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "OR"
+      ]
+    },
+    {
+      "id": 30,
+      "full_name": "Dr. Kai Herman",
+      "credentials": [
+        "ND"
+      ],
+      "certifications": [
+        "Naturopathic Doctor"
+      ],
+      "specialty_areas": [
+        "Functional Medicine",
+        "Aesthetic Medicine"
+      ],
+      "practice_address": {
+        "street": "8113 SE 13th Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97202"
+      },
+      "contact": {
+        "phone": "(503) 232-5653",
+        "fax": "(503) 234-6094",
+        "email": null,
+        "website": "https://formhealthpdx.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Functional Medicine and Aesthetic Specialist at FoRM Health PDX.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Mon-Fri: 9am-6pm, Sat: 10am-2pm",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "OR"
+      ]
+    },
+    {
+      "id": 31,
+      "full_name": "Dr. Brittany Krake",
+      "credentials": [
+        "ND",
+        "MDR"
+      ],
+      "certifications": [
+        "Naturopathic Doctor",
+        "Regenerative Medicine"
+      ],
+      "specialty_areas": [
+        "Naturopathic Medicine",
+        "Regenerative Medicine"
+      ],
+      "practice_address": {
+        "street": "8113 SE 13th Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97202"
+      },
+      "contact": {
+        "phone": "(503) 232-5653",
+        "fax": "(503) 234-6094",
+        "email": null,
+        "website": "https://formhealthpdx.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Naturopathic Physician and Regenerative Medicine Specialist at FoRM Health PDX.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Mon-Fri: 9am-6pm, Sat: 10am-2pm",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "OR"
+      ]
+    },
+    {
+      "id": 32,
+      "full_name": "Dr. Caitlan Readhead",
+      "credentials": [
+        "ND"
+      ],
+      "certifications": [
+        "Naturopathic Doctor"
+      ],
+      "specialty_areas": [
+        "Functional Medicine"
+      ],
+      "practice_address": {
+        "street": "8113 SE 13th Ave",
+        "city": "Portland",
+        "state": "OR",
+        "zip_code": "97202"
+      },
+      "contact": {
+        "phone": "(503) 232-5653",
+        "fax": "(503) 234-6094",
+        "email": null,
+        "website": "https://formhealthpdx.com"
+      },
+      "insurance_accepted": "Contact office for details",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "Not specified",
+      "professional_bio": "Functional Medicine Specialist at FoRM Health PDX.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Mon-Fri: 9am-6pm, Sat: 10am-2pm",
+      "visit_types": [
+        "In-office"
+      ],
+      "licensed_states": [
+        "OR"
+      ]
+    },
+    {
+      "id": 33,
+      "full_name": "Dr. Shields",
+      "credentials": [
+        "Leads team of C.F.M.P. and N.D."
+      ],
+      "certifications": [
+        "Team includes Certified Functional Medicine Practitioners and Naturopathic Doctors"
+      ],
+      "specialty_areas": [
+        "Fatigue",
+        "Thyroid",
+        "Hormonal Imbalance",
+        "Digestive Issues",
+        "Brain Health",
+        "Skin Issues",
+        "Diabetes",
+        "Autoimmune"
+      ],
+      "practice_address": {
+        "street": "Contact for address",
+        "city": "Sterling Heights area",
+        "state": "MI",
+        "zip_code": "Contact office"
+      },
+      "contact": {
+        "phone": "734-779-1650",
+        "email": null,
+        "website": "https://iwcenters.com"
+      },
+      "insurance_accepted": "HSA and FSA accepted, payment plans available through CareCredit",
+      "languages_spoken": [
+        "Not specified"
+      ],
+      "years_of_experience": "12+ years (since 2012)",
+      "professional_bio": "Team lead at Integrative Wellness Centers of Michigan since 2012. Leads team of Certified Functional Medicine Practitioners and Naturopathic Doctors helping thousands across Michigan and beyond.",
+      "photo_url": null,
+      "patient_ratings": null,
+      "office_hours": "Contact for hours",
+      "visit_types": [
+        "In-office",
+        "Virtual (Zoom)"
+      ],
+      "licensed_states": [
+        "MI"
+      ]
+    }
+  ]
+}
