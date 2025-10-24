@@ -23,7 +23,7 @@ A React + TypeScript + Vite application for connecting patients with certified a
    - Copy `.env.example` to `.env`
    - Fill in your Supabase credentials
    
-   **Note:** The app will run without Supabase credentials, but database features will not work. You'll see a warning in the console.
+   **Note:** The app will run without Supabase credentials, but database features will not work. You'll see a warning in the console that you can safely ignore during development.
 
 ### Running the Development Server
 
@@ -34,6 +34,14 @@ npm run dev
 ```
 
 The application will start on http://localhost:5173 (or the next available port).
+
+### Building for Production
+
+```bash
+pnpm run build
+# or
+npm run build
+```
 
 Currently, two official plugins are available:
 
