@@ -83,7 +83,7 @@ export default function PractitionerDetailPage() {
         {/* Main Profile Card */}
         <div className="bg-white rounded-3xl border border-slate-200 shadow-xl overflow-hidden">
           {/* Header */}
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-8 text-white">
+          <div className="bg-gradient-to-r from-blue-600 to-slate-900 p-8 text-white">
             <div className="flex items-start justify-between">
               <div>
                 <h1 className="text-3xl font-bold mb-2">{practitioner.full_name}</h1>
@@ -164,9 +164,9 @@ export default function PractitionerDetailPage() {
                 </div>
 
                 {practitioner.telehealth_available && (
-                  <div className="flex items-center space-x-3">
-                    <Video className="w-5 h-5 text-purple-600 flex-shrink-0" />
-                    <span className="text-purple-600 font-medium">Telehealth Available</span>
+                  <div className="flex items-center space-x-2 text-blue-100">
+                    <Video className="w-5 h-5 text-blue-200 flex-shrink-0" />
+                    <span className="text-blue-200 font-medium">Telehealth Available</span>
                   </div>
                 )}
               </div>
@@ -182,7 +182,7 @@ export default function PractitionerDetailPage() {
                 {practitioner.specialty_areas.map((specialty, idx) => (
                   <span
                     key={idx}
-                    className="bg-gradient-to-r from-blue-50 to-purple-50 text-blue-700 px-4 py-2 rounded-xl text-sm font-medium border border-blue-200"
+                    className="bg-gradient-to-r from-blue-50 to-slate-100 text-blue-700 px-4 py-2 rounded-xl text-sm font-medium border border-blue-200"
                   >
                     {specialty}
                   </span>
@@ -206,8 +206,8 @@ export default function PractitionerDetailPage() {
 
             {/* CTA Button */}
             <div className="pt-6 border-t border-slate-200">
-              <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg transition-all transform hover:scale-[1.02]">
-                Contact Practitioner
+                            <button className="w-full bg-gradient-to-r from-blue-600 to-slate-900 hover:from-blue-700 hover:to-slate-950 text-white px-8 py-4 rounded-2xl font-semibold shadow-lg transition-all transform hover:scale-[1.02]">
+                Schedule Consultation
               </button>
             </div>
           </div>

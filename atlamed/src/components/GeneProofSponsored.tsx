@@ -7,12 +7,12 @@ export default function GeneProofSponsored() {
         <div className="relative overflow-hidden rounded-3xl border-2 border-purple-200/50 shadow-2xl">
           {/* Sponsored Badge */}
           <div className="absolute top-4 right-4 z-10">
-            <div className="bg-purple-600 text-white px-4 py-1.5 rounded-full text-xs font-bold shadow-lg">
+            <div className="bg-slate-800 text-white px-4 py-1.5 rounded-full text-xs font-bold shadow-lg">
               Featured Partner
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-purple-600 via-purple-700 to-blue-800 p-8 lg:p-12">
+          <div className="bg-gradient-to-br from-blue-600 via-slate-800 to-slate-900 p-8 lg:p-12">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="text-white">
                 <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-md px-4 py-2 rounded-full mb-4">
@@ -50,7 +50,7 @@ export default function GeneProofSponsored() {
                   href="https://breamiller.github.io/geneproof/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-white text-purple-600 px-8 py-4 rounded-2xl font-bold shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
+                  className="inline-flex items-center bg-white text-slate-800 px-8 py-4 rounded-2xl font-bold shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
                 >
                   Learn More About GeneProof
                   <ExternalLink className="w-5 h-5 ml-2" />

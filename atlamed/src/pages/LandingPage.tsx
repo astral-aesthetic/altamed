@@ -74,7 +74,7 @@ export default function LandingPage() {
       <SEO />
       {/* Hero Section with Bento Grid */}
       <section className="relative py-12 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-slate-100/20" />
         <div className="container mx-auto relative max-w-7xl">
           {/* Header Content */}
           <div className="grid lg:grid-cols-2 gap-8 mb-12 items-center">
@@ -86,13 +86,13 @@ export default function LandingPage() {
                 transform: animatedElements.has('hero-text') ? 'translateY(0)' : 'translateY(2rem)'
               }}
             >
-              <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold shadow-sm">
+              <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-100 to-slate-200 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold shadow-sm">
                 <Sparkles className="w-4 h-4" />
                 <span>Traditional & Integrative Healthcare Solutions</span>
               </div>
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold text-slate-900 leading-tight">
                 Discover Our
-                <span className="block bg-gradient-to-r from-blue-600 via-blue-500 to-purple-600 bg-clip-text text-transparent mt-2">
+                <span className="block bg-gradient-to-r from-blue-600 via-blue-500 to-slate-900 bg-clip-text text-transparent mt-2">
                   Trusted Practitioners
                 </span>
               </h1>
@@ -161,19 +161,19 @@ export default function LandingPage() {
                 
                 <div className="grid grid-cols-3 gap-4">
                   <div className="text-center">
-                    <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-slate-900 bg-clip-text text-transparent">
                       {stats.total}+
                     </div>
                     <div className="text-xs text-slate-600 mt-1">Verified Practitioners</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-slate-900 bg-clip-text text-transparent">
                       {stats.states}
                     </div>
                     <div className="text-xs text-slate-600 mt-1">States</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                    <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-slate-900 bg-clip-text text-transparent">
                       {stats.specialties}+
                     </div>
                     <div className="text-xs text-slate-600 mt-1">Specialties</div>
@@ -291,7 +291,7 @@ export default function LandingPage() {
                 transform: animatedElements.has('bento-4') ? 'scale(1)' : 'scale(0.95)'
               }}
             >
-              <MapPin className="w-8 h-8 text-purple-600 mb-3" />
+              <MapPin className="w-8 h-8 text-slate-700 mb-3" />
               <h3 className="text-lg font-bold text-slate-900 mb-2">Smart Search</h3>
               <p className="text-slate-600 text-sm mb-3">Filter by location, specialty, telehealth, and more</p>
               <div className="bg-white/60 backdrop-blur-sm rounded-xl px-3 py-2 text-xs text-slate-700">
@@ -331,7 +331,7 @@ export default function LandingPage() {
                 transform: animatedElements.has('bento-6') ? 'translateY(0)' : 'translateY(2rem)'
               }}
             >
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-slate-900 rounded-2xl flex items-center justify-center mb-4">
                 <Clock className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">24/7 Access</h3>
@@ -352,7 +352,7 @@ export default function LandingPage() {
               transform: animatedElements.has('featured-header') ? 'translateY(0)' : 'translateY(2rem)'
             }}
           >
-            <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+            <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
               <Award className="w-4 h-4" />
               <span>Top-Rated Professionals</span>
             </div>
@@ -423,7 +423,7 @@ export default function LandingPage() {
           <div className="text-center mt-12">
             <Link
               to="/directory"
-              className="inline-flex items-center bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
+              className="inline-flex items-center bg-gradient-to-r from-blue-600 to-slate-900 hover:from-blue-700 hover:to-slate-950 text-white px-8 py-4 rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
             >
               View All {stats.total}+ Practitioners
               <ArrowRight className="w-5 h-5 ml-2" />
@@ -479,7 +479,7 @@ export default function LandingPage() {
           >
             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzM2ODJmNiIgc3Ryb2tlLW9wYWNpdHk9IjAuMDUiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-100" />
             <div className="relative text-center">
-              <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 bg-clip-text text-transparent mb-4">
+              <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 via-slate-900 to-blue-600 bg-clip-text text-transparent mb-4">
                 Ready to Find Your Alternative Medicine Practitioner?
               </h2>
               <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
@@ -487,7 +487,7 @@ export default function LandingPage() {
               </p>
               <Link
                 to="/directory"
-                className="inline-flex items-center bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl transition-all transform hover:scale-105"
+                className="inline-flex items-center bg-gradient-to-r from-blue-600 to-slate-900 hover:from-blue-700 hover:to-slate-950 text-white px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl transition-all transform hover:scale-105"
               >
                 <Search className="w-6 h-6 mr-3" />
                 Search Practitioners Now
