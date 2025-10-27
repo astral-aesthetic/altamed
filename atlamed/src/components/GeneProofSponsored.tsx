@@ -22,10 +22,10 @@ export default function GeneProofSponsored() {
                 <h2 className="text-4xl lg:text-5xl font-bold mb-4">
                   Introducing GeneProof
                 </h2>
-                <p className="text-xl text-purple-100 mb-6">
+                <p className="text-xl text-blue-100 mb-6">
                   Your Personalized Health Companion
                 </p>
-                <p className="text-purple-100 leading-relaxed mb-6">
+                <p className="text-white leading-relaxed mb-6">
                   GeneProof is an AI-incentivized healthcare recommendations app that seamlessly integrates with Epic EHR systems. Upload your healthcare assessments, medical history, and screenings directly to receive personalized, data-driven health insights.
                 </p>
 
@@ -41,7 +41,7 @@ export default function GeneProofSponsored() {
                       <div className="w-8 h-8 bg-white/20 backdrop-blur-md rounded-lg flex items-center justify-center">
                         <feature.icon className="w-4 h-4 text-white" />
                       </div>
-                      <span className="text-purple-50 font-medium">{feature.text}</span>
+                      <span className="text-white font-medium">{feature.text}</span>
                     </div>
                   ))}
                 </div>
@@ -52,13 +52,13 @@ export default function GeneProofSponsored() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-white text-slate-800 px-8 py-4 rounded-2xl font-bold shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
                 >
-                  Learn More About GeneProof
+                  Learn More
                   <ExternalLink className="w-5 h-5 ml-2" />
                 </a>
               </div>
 
-              <div className="relative scale-125 origin-center">
-                {/* GeneProof app image - 25% larger display without background */}
+              <div className="relative scale-150 sm:scale-125 origin-center">
+                {/* GeneProof app image - Larger on mobile (150%), smaller on desktop (125%) */}
                 <img
                   src={`${import.meta.env.BASE_URL}images/geneproof 2.0 - heart health.png`}
                   alt="GeneProof 2.0 - Heart Health app screenshot"
