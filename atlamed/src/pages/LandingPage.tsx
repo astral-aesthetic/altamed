@@ -131,22 +131,22 @@ export default function LandingPage() {
                   <div className="flex items-center space-x-2">
                     <div className="flex -space-x-2">
                       <img 
-                        src="/images/practitioners/ken_berry.jpg" 
+                        src={`${import.meta.env.BASE_URL}images/practitioners/ken_berry.jpg`} 
                         alt="Dr. Ken Berry"
                         className="w-8 h-8 rounded-full border-2 border-white object-cover"
                       />
                       <img 
-                        src="/images/practitioners/chris_palmer.jpg" 
+                        src={`${import.meta.env.BASE_URL}images/practitioners/chris_palmer.jpg`} 
                         alt="Dr. Chris Palmer"
                         className="w-8 h-8 rounded-full border-2 border-white object-cover"
                       />
                       <img 
-                        src="/images/practitioners/philip_ovadia.jpg" 
+                        src={`${import.meta.env.BASE_URL}images/practitioners/philip_ovadia.jpg`} 
                         alt="Dr. Philip Ovadia"
                         className="w-8 h-8 rounded-full border-2 border-white object-cover"
                       />
                       <img 
-                        src="/images/practitioners/paul_saladino.jpg" 
+                        src={`${import.meta.env.BASE_URL}images/practitioners/paul_saladino.jpg`} 
                         alt="Dr. Paul Saladino"
                         className="w-8 h-8 rounded-full border-2 border-white object-cover"
                       />
@@ -202,7 +202,7 @@ export default function LandingPage() {
               }}
             >
               <img 
-                src="/images/clinic.jpg" 
+                src={`${import.meta.env.BASE_URL}images/clinic.jpg`} 
                 alt="Holistic Clinic"
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -312,7 +312,7 @@ export default function LandingPage() {
               }}
             >
               <img 
-                src="/images/wellness2.jpg" 
+                src={`${import.meta.env.BASE_URL}images/wellness2.jpg`} 
                 alt="Wellness Center"
                 className="w-full h-full object-cover"
               />

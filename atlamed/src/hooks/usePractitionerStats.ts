@@ -27,6 +27,22 @@ export function usePractitionerStats(): PractitionerStats {
   async function loadStats() {
     try {
       if (!supabase) {
+        // Try a static fallback from public if present
+        try {
+          const res = await fetch(`${import.meta.env.BASE_URL}stats.json`, { cache: 'no-store' });
+          if (res.ok) {
+            const json = await res.json();
+            setStats({
+              total: Number(json.total) || 0,
+              states: Number(json.states) || 0,
+              specialties: Number(json.specialties) || 0,
+              loading: false,
+            });
+            return;
+          }
+        } catch (e) {
+          // ignore and fall through to zeros
+        }
         console.warn('[usePractitionerStats] Supabase not configured; using zero stats');
         setStats({ total: 0, states: 0, specialties: 0, loading: false });
         return;

@@ -63,7 +63,7 @@ export default function GeneProofSponsored() {
                   <div className="bg-gradient-to-br from-white/90 to-white/70 rounded-xl p-3">
                     <div className="relative rounded-xl overflow-hidden shadow-2xl ring-1 ring-slate-200/60">
                       <img
-                        src="/images/geneproof 2.0 - heart health.png"
+                        src={`${import.meta.env.BASE_URL}images/geneproof 2.0 - heart health.png`}
                         alt="GeneProof 2.0 - Heart Health app screenshot"
                         className="w-full h-full object-contain bg-white"
                         loading="lazy"
