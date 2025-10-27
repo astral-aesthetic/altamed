@@ -420,9 +420,6 @@ export default function LandingPage() {
             </div>
           ) : (
             <div className="text-center py-12">
-              <p className="text-slate-600 mb-6">
-                Connect with our network of certified practitioners to begin your wellness journey.
-              </p>
               <Link
                 to="/directory"
                 className="inline-flex items-center bg-gradient-to-r from-blue-600 to-slate-900 hover:from-blue-700 hover:to-slate-950 text-white px-8 py-4 rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
