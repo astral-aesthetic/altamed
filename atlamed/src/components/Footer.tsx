@@ -18,7 +18,7 @@ export default function Footer() {
           {/* Column 1 - About AtlaMed */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-slate-900 rounded-xl flex items-center justify-center">
                 <Activity className="w-6 h-6 text-white" />
               </div>
               <span className="text-2xl font-bold">AtlaMed</span>

@@ -20,7 +20,7 @@ export default function OurStoryPage() {
       />
 
       {/* Hero Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-600 via-blue-700 to-purple-700 overflow-hidden">
+      <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-600 via-blue-700 to-slate-900 overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjEiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-20" />
         <div className="container mx-auto max-w-4xl text-center relative">
           <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-md text-white px-4 py-2 rounded-full text-sm font-semibold mb-6">
@@ -43,7 +43,7 @@ export default function OurStoryPage() {
           <div className="mb-20">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
-                <div className="inline-flex items-center space-x-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                   <Heart className="w-4 h-4" />
                   <span>For Patients</span>
                 </div>
@@ -59,8 +59,8 @@ export default function OurStoryPage() {
 
                 <div className="space-y-4">
                   <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                      <CheckCircle className="w-4 h-4 text-purple-600" />
+                    <div className="w-6 h-6 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                      <CheckCircle className="w-4 h-4 text-blue-600" />
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 mb-1">Personalized Care Matching</h3>
@@ -68,8 +68,8 @@ export default function OurStoryPage() {
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                      <CheckCircle className="w-4 h-4 text-purple-600" />
+                    <div className="w-6 h-6 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                      <CheckCircle className="w-4 h-4 text-blue-600" />
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 mb-1">Transparent Information</h3>
@@ -77,8 +77,8 @@ export default function OurStoryPage() {
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
-                    <div className="w-6 h-6 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                      <CheckCircle className="w-4 h-4 text-purple-600" />
+                    <div className="w-6 h-6 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                      <CheckCircle className="w-4 h-4 text-blue-600" />
                     </div>
                     <div>
                       <h3 className="font-bold text-slate-900 mb-1">Informed Decision Making</h3>
@@ -89,11 +89,11 @@ export default function OurStoryPage() {
               </div>
 
               <div className="order-1 lg:order-2">
-                <div className="bg-gradient-to-br from-purple-100 to-blue-100 rounded-3xl p-12 relative overflow-hidden">
-                  <div className="absolute top-0 right-0 w-64 h-64 bg-purple-400 rounded-full opacity-20 blur-3xl" />
+                <div className="bg-gradient-to-br from-slate-100 to-blue-100 rounded-3xl p-12 relative overflow-hidden">
+                  <div className="absolute top-0 right-0 w-64 h-64 bg-slate-400 rounded-full opacity-20 blur-3xl" />
                   <div className="absolute bottom-0 left-0 w-48 h-48 bg-blue-400 rounded-full opacity-20 blur-3xl" />
                   <div className="relative">
-                    <Heart className="w-16 h-16 text-purple-600 mb-6" />
+                    <Heart className="w-16 h-16 text-blue-600 mb-6" />
                     <div className="space-y-6">
                       <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg">
                         <div className="text-3xl font-bold text-slate-900 mb-1">
