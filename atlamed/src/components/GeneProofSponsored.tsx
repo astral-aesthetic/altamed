@@ -58,31 +58,22 @@ export default function GeneProofSponsored() {
               </div>
 
               <div className="relative">
-                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20">
-                  <div className="bg-gradient-to-br from-white/90 to-white/70 rounded-xl p-6">
-                    <div className="space-y-4">
-                      <div className="flex items-center space-x-3">
-                        <div className="w-12 h-12 bg-purple-600 rounded-xl flex items-center justify-center">
-                          <Brain className="w-6 h-6 text-white" />
-                        </div>
-                        <div>
-                          <div className="text-sm text-slate-500">AI Analysis</div>
-                          <div className="text-lg font-bold text-slate-900">Real-time Insights</div>
-                        </div>
-                      </div>
-                      <div className="h-2 bg-slate-200 rounded-full overflow-hidden">
-                        <div className="h-full w-3/4 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full animate-pulse" />
-                      </div>
-                      <div className="grid grid-cols-3 gap-3 pt-2">
-                        {['Health Score', 'Risk Analysis', 'Recommendations'].map((label, idx) => (
-                          <div key={idx} className="bg-purple-50 rounded-lg p-3 text-center">
-                            <div className="text-2xl font-bold text-purple-600">{85 + idx * 5}</div>
-                            <div className="text-xs text-slate-600">{label}</div>
-                          </div>
-                        ))}
-                      </div>
+                {/* Replace this image by dropping your file at atlamed/public/images/geneproof-app.png */}
+                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-3 border border-white/20">
+                  <div className="bg-gradient-to-br from-white/90 to-white/70 rounded-xl p-3">
+                    <div className="relative rounded-xl overflow-hidden shadow-2xl ring-1 ring-slate-200/60">
+                      <img
+                        src="/images/geneproof 2.0 - heart health.png"
+                        alt="GeneProof 2.0 - Heart Health app screenshot"
+                        className="w-full h-full object-contain bg-white"
+                        loading="lazy"
+                      />
                     </div>
                   </div>
+                </div>
+                <div className="pointer-events-none absolute -z-10 inset-0">
+                  <div className="absolute -top-8 -right-8 h-56 w-56 rounded-full bg-purple-500/30 blur-3xl" />
+                  <div className="absolute -bottom-10 -left-10 h-56 w-56 rounded-full bg-blue-500/30 blur-3xl" />
                 </div>
               </div>
             </div>
