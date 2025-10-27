@@ -105,15 +105,6 @@ export default function Header() {
                         {specialty}
                       </button>
                     ))}
-                    <div className="border-t border-slate-200 mt-2 pt-2">
-                      <Link
-                        to="/directory"
-                        onClick={() => setShowSpecialtiesDropdown(false)}
-                        className="block px-4 py-2 text-blue-600 hover:bg-blue-50 font-medium transition-colors"
-                      >
-                        View All Practitioners
-                      </Link>
-                    </div>
                   </div>
                 )}
               </div>
@@ -198,13 +189,6 @@ export default function Header() {
                           {specialty}
                         </button>
                       ))}
-                      <Link
-                        to="/directory"
-                        onClick={() => { setShowSpecialtiesDropdown(false); setIsMobileMenuOpen(false); }}
-                        className="block text-sm text-blue-600 hover:text-blue-700 font-medium py-1"
-                      >
-                        View All Practitioners
-                      </Link>
                     </div>
                   )}
                 </div>
