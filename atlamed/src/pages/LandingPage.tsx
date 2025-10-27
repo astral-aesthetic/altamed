@@ -7,7 +7,6 @@ import SEO from '../components/SEO';
 import GeneProofSponsored from '../components/GeneProofSponsored';
 import ProfessionalProviderShowcase from '../components/ProfessionalProviderShowcase';
 import ProviderListingCTA from '../components/ProviderListingCTA';
-import SupabaseDebug from '../components/SupabaseDebug';
 import { usePractitionerStats, formatPractitionerCount } from '../hooks/usePractitionerStats';
 
 export default function LandingPage() {
@@ -504,7 +503,6 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
-      <SupabaseDebug />
     </div>
   );
 }
