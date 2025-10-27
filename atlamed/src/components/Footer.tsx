@@ -48,7 +48,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-slate-400 hover:text-white transition-colors text-sm">
+                <Link to="/contact" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Contact
                 </Link>
               </li>
@@ -82,17 +82,17 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-slate-400 hover:text-white transition-colors text-sm">
+                <Link to="/privacy-policy" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-slate-400 hover:text-white transition-colors text-sm">
+                <Link to="/terms-of-service" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Terms of Service
                 </Link>
               </li>
               <li>
-                <Link to="/" className="text-slate-400 hover:text-white transition-colors text-sm">
+                <Link to="/cookie-policy" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Cookie Policy
                 </Link>
               </li>

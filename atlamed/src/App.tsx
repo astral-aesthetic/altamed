@@ -7,6 +7,10 @@ import ConsiderationsPage from './pages/ConsiderationsPage';
 import BlogPostPage from './pages/BlogPostPage';
 import OurStoryPage from './pages/OurStoryPage';
 import ResourcesPage from './pages/ResourcesPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsOfServicePage from './pages/TermsOfServicePage';
+import CookiePolicyPage from './pages/CookiePolicyPage';
+import ContactPage from './pages/ContactPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -24,6 +28,10 @@ function App() {
             <Route path="/considerations/:slug" element={<BlogPostPage />} />
             <Route path="/our-story" element={<OurStoryPage />} />
             <Route path="/resources" element={<ResourcesPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/terms-of-service" element={<TermsOfServicePage />} />
+            <Route path="/cookie-policy" element={<CookiePolicyPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
           <Footer />
         </div>

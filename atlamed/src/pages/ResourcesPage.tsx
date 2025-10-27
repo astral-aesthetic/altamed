@@ -20,7 +20,7 @@ const guides: Guide[] = [
     specialty: 'Primary Care',
     fileName: 'primary-care-questions.md',
     icon: Stethoscope,
-    gradient: 'from-blue-500 to-blue-600'
+    gradient: 'from-blue-400 to-blue-600'
   },
   {
     id: 'pediatrician',
@@ -29,7 +29,7 @@ const guides: Guide[] = [
     specialty: 'Pediatrics',
     fileName: 'pediatrician-newborn-questions.md',
     icon: Baby,
-    gradient: 'from-pink-500 to-pink-600'
+    gradient: 'from-blue-300 to-blue-500'
   },
   {
     id: 'cardiologist',
@@ -38,7 +38,7 @@ const guides: Guide[] = [
     specialty: 'Cardiology',
     fileName: 'cardiologist-questions.md',
     icon: Heart,
-    gradient: 'from-red-500 to-red-600'
+    gradient: 'from-blue-500 to-blue-700'
   },
   {
     id: 'gastroenterologist',
@@ -47,7 +47,7 @@ const guides: Guide[] = [
     specialty: 'Gastroenterology',
     fileName: 'gastroenterologist-questions.md',
     icon: Activity,
-    gradient: 'from-green-500 to-green-600'
+    gradient: 'from-blue-600 to-slate-800'
   },
   {
     id: 'neurologist',
@@ -56,7 +56,7 @@ const guides: Guide[] = [
     specialty: 'Neurology',
     fileName: 'neurologist-questions.md',
     icon: Brain,
-    gradient: 'from-purple-500 to-purple-600'
+    gradient: 'from-blue-700 to-slate-900'
   }
 ];
 
@@ -91,16 +91,16 @@ const ResourcesPage: React.FC = () => {
       
       {/* Hero Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-purple-50/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-slate-50 to-blue-100/20" />
         <div className="container mx-auto relative max-w-7xl">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-100 to-purple-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold shadow-sm mb-6">
+            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-100 to-slate-200 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold shadow-sm mb-6">
               <Sparkles className="w-4 h-4" />
               <span>Patient Education Resources</span>
             </div>
             <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 mb-6">
               Empower Your
-              <span className="block bg-gradient-to-r from-blue-600 via-blue-500 to-purple-600 bg-clip-text text-transparent mt-2">
+              <span className="block bg-gradient-to-r from-blue-600 via-blue-500 to-slate-900 bg-clip-text text-transparent mt-2">
                 Healthcare Journey
               </span>
             </h1>
@@ -109,15 +109,15 @@ const ResourcesPage: React.FC = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-slate-600">
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
+                <CheckCircle className="w-5 h-5 text-blue-600" />
                 <span className="font-medium">100% Free</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
+                <CheckCircle className="w-5 h-5 text-blue-600" />
                 <span className="font-medium">Evidence-Based</span>
               </div>
               <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-green-500" />
+                <CheckCircle className="w-5 h-5 text-blue-600" />
                 <span className="font-medium">Instant Download</span>
               </div>
             </div>
@@ -177,22 +177,22 @@ const ResourcesPage: React.FC = () => {
 
       {/* How to Use Section */}
       <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-50 via-blue-50 to-white" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-slate-50 to-blue-100" />
         <div className="container mx-auto max-w-7xl relative">
           <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">How to Use These Guides</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white/80 backdrop-blur-lg rounded-3xl border border-slate-200/50 p-8 text-center shadow-lg hover:shadow-2xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">1</div>
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">1</div>
               <h3 className="font-bold text-xl mb-3 text-slate-900">Download & Review</h3>
               <p className="text-slate-600 leading-relaxed">Download the guide for your upcoming appointment and review the questions beforehand.</p>
             </div>
             <div className="bg-white/80 backdrop-blur-lg rounded-3xl border border-slate-200/50 p-8 text-center shadow-lg hover:shadow-2xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">2</div>
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">2</div>
               <h3 className="font-bold text-xl mb-3 text-slate-900">Personalize</h3>
               <p className="text-slate-600 leading-relaxed">Highlight or select the questions most relevant to your specific situation and concerns.</p>
             </div>
             <div className="bg-white/80 backdrop-blur-lg rounded-3xl border border-slate-200/50 p-8 text-center shadow-lg hover:shadow-2xl transition-all">
-              <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">3</div>
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-slate-900 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">3</div>
               <h3 className="font-bold text-xl mb-3 text-slate-900">Bring & Discuss</h3>
               <p className="text-slate-600 leading-relaxed">Bring the guide to your appointment and use it to guide your conversation with your provider.</p>
             </div>
@@ -203,7 +203,7 @@ const ResourcesPage: React.FC = () => {
       {/* Call to Action */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="container mx-auto max-w-7xl">
-          <div className="max-w-4xl mx-auto bg-gradient-to-r from-blue-600 via-blue-700 to-purple-700 rounded-3xl p-12 text-center text-white shadow-2xl relative overflow-hidden">
+          <div className="max-w-4xl mx-auto bg-gradient-to-r from-blue-600 via-slate-800 to-slate-900 rounded-3xl p-12 text-center text-white shadow-2xl relative overflow-hidden">
             <div className="absolute inset-0 bg-white/5 backdrop-blur-sm" />
             <div className="relative">
               <div className="w-20 h-20 mx-auto mb-6 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center">
