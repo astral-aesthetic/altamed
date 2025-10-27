@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Users, MapPin, Star, TrendingUp, Shield, Heart, CheckCircle, Award, Activity, Sparkles, ArrowRight, Clock, Leaf, FlaskConical, Stethoscope, Bone, Flower2 } from 'lucide-react';
+import { Search, Users, MapPin, Star, TrendingUp, Shield, Heart, CheckCircle, Award, Activity, Sparkles, ArrowRight, Clock, Leaf, Dna, PersonStanding, Bone, Flower2 } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { Practitioner } from '../types';
 import SEO from '../components/SEO';
@@ -249,8 +249,8 @@ export default function LandingPage() {
               <div className="space-y-2 text-sm">
                 {[
                   { name: 'Naturopathic Medicine', icon: Leaf },
-                  { name: 'Functional Medicine', icon: FlaskConical },
-                  { name: 'Integrative Medicine', icon: Stethoscope },
+                  { name: 'Functional Medicine', icon: Dna },
+                  { name: 'Integrative Medicine', icon: PersonStanding },
                   { name: 'Osteopathic Care', icon: Bone },
                   { name: 'Holistic Health', icon: Flower2 }
                 ].map((specialty, idx) => (

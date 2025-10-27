@@ -58,19 +58,13 @@ export default function GeneProofSponsored() {
               </div>
 
               <div className="relative scale-125 origin-center">
-                {/* GeneProof app image - 25% larger display without card wrapper */}
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <img
-                    src={`${import.meta.env.BASE_URL}images/geneproof 2.0 - heart health.png`}
-                    alt="GeneProof 2.0 - Heart Health app screenshot"
-                    className="w-full h-full object-contain"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="pointer-events-none absolute -z-10 inset-0">
-                  <div className="absolute -top-8 -right-8 h-64 w-64 rounded-full bg-slate-500/20 blur-3xl" />
-                  <div className="absolute -bottom-10 -left-10 h-64 w-64 rounded-full bg-blue-500/20 blur-3xl" />
-                </div>
+                {/* GeneProof app image - 25% larger display without background */}
+                <img
+                  src={`${import.meta.env.BASE_URL}images/geneproof 2.0 - heart health.png`}
+                  alt="GeneProof 2.0 - Heart Health app screenshot"
+                  className="w-full h-full object-contain"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
