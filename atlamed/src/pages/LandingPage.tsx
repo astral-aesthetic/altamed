@@ -484,20 +484,20 @@ export default function LandingPage() {
             }}
           >
             <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzM2ODJmNiIgc3Ryb2tlLW9wYWNpdHk9IjAuMDUiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-100" />
-            <div className="relative text-center">
-              <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 via-slate-900 to-blue-600 bg-clip-text text-transparent mb-4">
+            <div className="relative text-center px-4">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-blue-600 via-slate-900 to-blue-600 bg-clip-text text-transparent mb-4 leading-tight">
                 Ready to Find Your Alternative Medicine Practitioner?
               </h2>
-              <p className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+              <p className="text-lg sm:text-xl text-slate-600 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
                 Join thousands of patients discovering natural healing solutions through our comprehensive practitioner directory.
               </p>
               <Link
                 to="/directory"
-                className="inline-flex items-center bg-gradient-to-r from-blue-600 to-slate-900 hover:from-blue-700 hover:to-slate-950 text-white px-10 py-5 rounded-2xl font-bold text-lg shadow-2xl transition-all transform hover:scale-105"
+                className="inline-flex items-center bg-gradient-to-r from-blue-600 to-slate-900 hover:from-blue-700 hover:to-slate-950 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold text-base sm:text-lg shadow-2xl transition-all transform hover:scale-105"
               >
-                <Search className="w-6 h-6 mr-3" />
+                <Search className="w-5 h-5 sm:w-6 sm:h-6 mr-2 sm:mr-3" />
                 Search Practitioners
-                <ArrowRight className="w-6 h-6 ml-3" />
+                <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 ml-2 sm:ml-3" />
               </Link>
             </div>
           </div>
