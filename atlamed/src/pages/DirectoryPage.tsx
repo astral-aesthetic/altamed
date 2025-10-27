@@ -159,6 +159,8 @@ export default function DirectoryPage() {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
               <input
                 type="text"
+                id="search-practitioners"
+                name="search"
                 placeholder="Search by name, specialty, or location..."
                 value={filters.searchQuery}
                 onChange={(e) => setFilters({ ...filters, searchQuery: e.target.value })}
@@ -188,6 +190,8 @@ export default function DirectoryPage() {
                     State
                   </label>
                   <select
+                    id="filter-state"
+                    name="state"
                     value={filters.state}
                     onChange={(e) => setFilters({ ...filters, state: e.target.value })}
                     className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -205,6 +209,8 @@ export default function DirectoryPage() {
                   </label>
                   <input
                     type="text"
+                    id="filter-city"
+                    name="city"
                     placeholder="Enter city..."
                     value={filters.city}
                     onChange={(e) => setFilters({ ...filters, city: e.target.value })}
@@ -217,6 +223,8 @@ export default function DirectoryPage() {
                     Specialty
                   </label>
                   <select
+                    id="filter-specialty"
+                    name="specialty"
                     value={filters.specialty}
                     onChange={(e) => setFilters({ ...filters, specialty: e.target.value })}
                     className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -233,6 +241,8 @@ export default function DirectoryPage() {
                     Minimum Rating
                   </label>
                   <select
+                    id="filter-rating"
+                    name="minRating"
                     value={filters.minRating}
                     onChange={(e) => setFilters({ ...filters, minRating: parseFloat(e.target.value) })}
                     className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -249,6 +259,8 @@ export default function DirectoryPage() {
                 <label className="flex items-center space-x-2 cursor-pointer">
                   <input
                     type="checkbox"
+                    id="filter-telehealth"
+                    name="telehealthOnly"
                     checked={filters.telehealthOnly}
                     onChange={(e) => setFilters({ ...filters, telehealthOnly: e.target.checked })}
                     className="w-4 h-4 text-blue-600 border-slate-300 rounded focus:ring-blue-500"

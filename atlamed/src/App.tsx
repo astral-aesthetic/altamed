@@ -11,6 +11,8 @@ import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import TermsOfServicePage from './pages/TermsOfServicePage';
 import CookiePolicyPage from './pages/CookiePolicyPage';
 import ContactPage from './pages/ContactPage';
+import AddListingPage from './pages/AddListingPage';
+import PractitionerLoginPage from './pages/PractitionerLoginPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -32,6 +34,8 @@ function App() {
             <Route path="/terms-of-service" element={<TermsOfServicePage />} />
             <Route path="/cookie-policy" element={<CookiePolicyPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/add-listing" element={<AddListingPage />} />
+            <Route path="/practitioner-login" element={<PractitionerLoginPage />} />
           </Routes>
           <Footer />
         </div>

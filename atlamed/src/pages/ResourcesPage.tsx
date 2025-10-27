@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, Download, CheckCircle, Stethoscope, Baby, Heart, Activity, Brain, Sparkles } from 'lucide-react';
+import { FileText, Download, CheckCircle, Stethoscope, Baby, Heart, Activity, Brain, Sparkles, Bone } from 'lucide-react';
 import SEO from '../components/SEO';
 
 interface Guide {
@@ -57,6 +57,15 @@ const guides: Guide[] = [
     fileName: 'neurologist-questions.md',
     icon: Brain,
     gradient: 'from-blue-700 to-slate-900'
+  },
+  {
+    id: 'orthopedic',
+    title: 'Questions for Your Orthopedic Surgeon',
+    description: 'Comprehensive guide for bone, joint, and musculoskeletal health. Covers injuries, surgical options, recovery expectations, and physical therapy.',
+    specialty: 'Orthopedics',
+    fileName: 'orthopedic-questions.md',
+    icon: Bone,
+    gradient: 'from-slate-700 to-slate-900'
   }
 ];
 
@@ -104,10 +113,10 @@ const ResourcesPage: React.FC = () => {
                 Healthcare Journey
               </span>
             </h1>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-8">
+            <p className="text-xl text-slate-900 max-w-3xl mx-auto leading-relaxed mb-8">
               Download our free comprehensive guides to help you have more productive conversations with your healthcare providers. Be prepared, ask the right questions, and take control of your health.
             </p>
-            <div className="flex flex-wrap justify-center gap-6 text-slate-600">
+            <div className="flex flex-wrap justify-center gap-6 text-slate-900">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-blue-600" />
                 <span className="font-medium">100% Free</span>
@@ -130,7 +139,7 @@ const ResourcesPage: React.FC = () => {
         <div className="container mx-auto max-w-7xl">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Prepared Patients Get Better Care</h2>
-            <p className="text-lg text-slate-600">
+            <p className="text-lg text-slate-900">
               Research shows that patients who come prepared with questions have more productive appointments, better understanding of their conditions, and improved health outcomes. Our guides help you make the most of your valuable time with healthcare providers.
             </p>
           </div>
@@ -158,7 +167,7 @@ const ResourcesPage: React.FC = () => {
                   
                   <div className="p-6">
                     <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">{guide.title}</h3>
-                    <p className="text-slate-600 mb-6 min-h-[80px] text-sm leading-relaxed">{guide.description}</p>
+                    <p className="text-slate-900 mb-6 min-h-[80px] text-sm leading-relaxed">{guide.description}</p>
                     
                     <button
                       onClick={() => handleDownload(guide)}
@@ -184,17 +193,17 @@ const ResourcesPage: React.FC = () => {
             <div className="bg-white/80 backdrop-blur-lg rounded-3xl border border-slate-200/50 p-8 text-center shadow-lg hover:shadow-2xl transition-all">
               <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">1</div>
               <h3 className="font-bold text-xl mb-3 text-slate-900">Download & Review</h3>
-              <p className="text-slate-600 leading-relaxed">Download the guide for your upcoming appointment and review the questions beforehand.</p>
+              <p className="text-slate-900 leading-relaxed">Download the guide for your upcoming appointment and review the questions beforehand.</p>
             </div>
             <div className="bg-white/80 backdrop-blur-lg rounded-3xl border border-slate-200/50 p-8 text-center shadow-lg hover:shadow-2xl transition-all">
               <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">2</div>
               <h3 className="font-bold text-xl mb-3 text-slate-900">Personalize</h3>
-              <p className="text-slate-600 leading-relaxed">Highlight or select the questions most relevant to your specific situation and concerns.</p>
+              <p className="text-slate-900 leading-relaxed">Highlight or select the questions most relevant to your specific situation and concerns.</p>
             </div>
             <div className="bg-white/80 backdrop-blur-lg rounded-3xl border border-slate-200/50 p-8 text-center shadow-lg hover:shadow-2xl transition-all">
               <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-slate-900 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-lg">3</div>
               <h3 className="font-bold text-xl mb-3 text-slate-900">Bring & Discuss</h3>
-              <p className="text-slate-600 leading-relaxed">Bring the guide to your appointment and use it to guide your conversation with your provider.</p>
+              <p className="text-slate-900 leading-relaxed">Bring the guide to your appointment and use it to guide your conversation with your provider.</p>
             </div>
           </div>
         </div>

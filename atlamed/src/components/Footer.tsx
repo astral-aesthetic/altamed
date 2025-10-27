@@ -60,14 +60,14 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">For Practitioners</h3>
             <ul className="space-y-2">
               <li>
-                <button className="text-slate-400 hover:text-white transition-colors text-sm text-left">
+                <Link to="/add-listing" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Add Your Listing
-                </button>
+                </Link>
               </li>
               <li>
-                <button className="text-slate-400 hover:text-white transition-colors text-sm text-left">
+                <Link to="/practitioner-login" className="text-slate-400 hover:text-white transition-colors text-sm">
                   Practitioner Login
-                </button>
+                </Link>
               </li>
               <li>
                 <Link to="/resources" className="text-slate-400 hover:text-white transition-colors text-sm">
@@ -120,6 +120,8 @@ export default function Footer() {
             <form onSubmit={handleNewsletter} className="flex gap-2">
               <input
                 type="email"
+                id="newsletter-email"
+                name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Your email"

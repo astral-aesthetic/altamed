@@ -112,6 +112,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">Full Name *</label>
               <input
                 type="text"
+                id="full_name"
+                name="full_name"
                 required
                 value={formData.full_name}
                 onChange={(e) => setFormData({ ...formData, full_name: e.target.value })}
@@ -122,6 +124,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">Credentials *</label>
               <input
                 type="text"
+                id="credentials"
+                name="credentials"
                 required
                 placeholder="e.g., ND, MD, DO"
                 value={formData.credentials}
@@ -138,6 +142,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
                 <label key={specialty} className="flex items-center space-x-2 cursor-pointer">
                   <input
                     type="checkbox"
+                    id={`specialty-${specialty.toLowerCase().replace(/\s+/g, '-')}`}
+                    name="specialty_areas"
                     checked={formData.specialty_areas.includes(specialty)}
                     onChange={() => handleSpecialtyChange(specialty)}
                     className="w-4 h-4 text-blue-600"
@@ -152,6 +158,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
             <label className="block text-sm font-medium text-slate-700 mb-2">Practice Name</label>
             <input
               type="text"
+              id="practice_name"
+              name="practice_name"
               value={formData.practice_name}
               onChange={(e) => setFormData({ ...formData, practice_name: e.target.value })}
               className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
@@ -163,6 +171,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">Address *</label>
               <input
                 type="text"
+                id="address"
+                name="address"
                 required
                 value={formData.address}
                 onChange={(e) => setFormData({ ...formData, address: e.target.value })}
@@ -173,6 +183,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">City *</label>
               <input
                 type="text"
+                id="city"
+                name="city"
                 required
                 value={formData.city}
                 onChange={(e) => setFormData({ ...formData, city: e.target.value })}
@@ -183,6 +195,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">State *</label>
               <input
                 type="text"
+                id="state"
+                name="state"
                 required
                 value={formData.state}
                 onChange={(e) => setFormData({ ...formData, state: e.target.value })}
@@ -196,6 +210,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">Zip Code *</label>
               <input
                 type="text"
+                id="zip_code"
+                name="zip_code"
                 required
                 value={formData.zip_code}
                 onChange={(e) => setFormData({ ...formData, zip_code: e.target.value })}
@@ -206,6 +222,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">Phone *</label>
               <input
                 type="tel"
+                id="phone"
+                name="phone"
                 required
                 value={formData.phone}
                 onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
@@ -219,6 +237,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">Email *</label>
               <input
                 type="email"
+                id="email"
+                name="email"
                 required
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -229,6 +249,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">Website</label>
               <input
                 type="url"
+                id="website"
+                name="website"
                 value={formData.website}
                 onChange={(e) => setFormData({ ...formData, website: e.target.value })}
                 className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
@@ -241,6 +263,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">Years of Experience *</label>
               <input
                 type="number"
+                id="years_of_experience"
+                name="years_of_experience"
                 required
                 min="0"
                 value={formData.years_of_experience}
@@ -252,6 +276,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
               <label className="block text-sm font-medium text-slate-700 mb-2">Insurance Accepted</label>
               <input
                 type="text"
+                id="insurance_accepted"
+                name="insurance_accepted"
                 placeholder="e.g., Most major insurances"
                 value={formData.insurance_accepted}
                 onChange={(e) => setFormData({ ...formData, insurance_accepted: e.target.value })}
@@ -263,6 +289,8 @@ export default function ProviderListingForm({ onClose }: ProviderListingFormProp
           <div>
             <label className="block text-sm font-medium text-slate-700 mb-2">Bio / Description *</label>
             <textarea
+              id="bio"
+              name="bio"
               required
               rows={4}
               value={formData.bio}

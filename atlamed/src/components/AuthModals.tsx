@@ -120,6 +120,8 @@ export default function AuthModals({
                   <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
                   <input
                     type="email"
+                    id="login-email"
+                    name="email"
                     required
                     value={loginData.email}
                     onChange={(e) => setLoginData({ ...loginData, email: e.target.value })}
@@ -135,6 +137,8 @@ export default function AuthModals({
                   <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
                   <input
                     type="password"
+                    id="login-password"
+                    name="password"
                     required
                     value={loginData.password}
                     onChange={(e) => setLoginData({ ...loginData, password: e.target.value })}
@@ -199,6 +203,8 @@ export default function AuthModals({
                   <User className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
                   <input
                     type="text"
+                    id="register-fullname"
+                    name="fullName"
                     required
                     value={registerData.fullName}
                     onChange={(e) => setRegisterData({ ...registerData, fullName: e.target.value })}
@@ -214,6 +220,8 @@ export default function AuthModals({
                   <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
                   <input
                     type="email"
+                    id="register-email"
+                    name="email"
                     required
                     value={registerData.email}
                     onChange={(e) => setRegisterData({ ...registerData, email: e.target.value })}
@@ -229,6 +237,8 @@ export default function AuthModals({
                   <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
                   <input
                     type="password"
+                    id="register-password"
+                    name="password"
                     required
                     value={registerData.password}
                     onChange={(e) => setRegisterData({ ...registerData, password: e.target.value })}
@@ -244,6 +254,8 @@ export default function AuthModals({
                   <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-slate-400" />
                   <input
                     type="password"
+                    id="register-confirm-password"
+                    name="confirmPassword"
                     required
                     value={registerData.confirmPassword}
                     onChange={(e) => setRegisterData({ ...registerData, confirmPassword: e.target.value })}
@@ -259,6 +271,8 @@ export default function AuthModals({
                   <label className="flex items-center space-x-3 cursor-pointer">
                     <input
                       type="radio"
+                      id="user-type-patient"
+                      name="userType"
                       value="patient"
                       checked={registerData.userType === 'patient'}
                       onChange={(e) => setRegisterData({ ...registerData, userType: e.target.value as 'patient' | 'practitioner' })}
@@ -269,6 +283,8 @@ export default function AuthModals({
                   <label className="flex items-center space-x-3 cursor-pointer">
                     <input
                       type="radio"
+                      id="user-type-practitioner"
+                      name="userType"
                       value="practitioner"
                       checked={registerData.userType === 'practitioner'}
                       onChange={(e) => setRegisterData({ ...registerData, userType: e.target.value as 'patient' | 'practitioner' })}
