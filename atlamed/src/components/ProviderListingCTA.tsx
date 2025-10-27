@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Plus, Briefcase, ArrowRight } from 'lucide-react';
+import { UserCheck, Eye, Award, Users, Briefcase, ArrowRight } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import ProviderListingForm from './ProviderListingForm';
 
@@ -42,16 +42,16 @@ export default function ProviderListingCTA() {
 
                 <div className="grid md:grid-cols-2 gap-4 mb-10 text-left">
                   {[
-                    'Verified practitioner profile',
-                    'Increased patient visibility',
-                    'Professional credibility badge',
-                    'Direct patient connections',
+                    { text: 'Verified practitioner profile', icon: UserCheck },
+                    { text: 'Increased patient visibility', icon: Eye },
+                    { text: 'Professional credibility badge', icon: Award },
+                    { text: 'Direct patient connections', icon: Users },
                   ].map((benefit, idx) => (
                     <div key={idx} className="flex items-center text-white">
-                      <div className="w-6 h-6 bg-green-400 rounded-full flex items-center justify-center mr-3 flex-shrink-0">
-                        <Plus className="w-4 h-4 text-green-900" />
+                      <div className="w-8 h-8 bg-white/20 backdrop-blur-md rounded-lg flex items-center justify-center mr-3 flex-shrink-0">
+                        <benefit.icon className="w-5 h-5 text-white" />
                       </div>
-                      <span className="text-blue-50">{benefit}</span>
+                      <span className="text-blue-50">{benefit.text}</span>
                     </div>
                   ))}
                 </div>

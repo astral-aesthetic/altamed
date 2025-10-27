@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Users, MapPin, Star, TrendingUp, Shield, Heart, CheckCircle, Award, Activity, Sparkles, ArrowRight, Clock } from 'lucide-react';
+import { Search, Users, MapPin, Star, TrendingUp, Shield, Heart, CheckCircle, Award, Activity, Sparkles, ArrowRight, Clock, Leaf, FlaskConical, Stethoscope, Bone, Flower2 } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { Practitioner } from '../types';
 import SEO from '../components/SEO';
@@ -247,10 +247,16 @@ export default function LandingPage() {
               <Activity className="w-8 h-8 mb-4 text-blue-200" />
               <h3 className="text-xl font-bold mb-4">Specialties</h3>
               <div className="space-y-2 text-sm">
-                {['Naturopathic Medicine', 'Functional Medicine', 'Integrative Medicine', 'Osteopathic Care', 'Holistic Health'].map((specialty, idx) => (
+                {[
+                  { name: 'Naturopathic Medicine', icon: Leaf },
+                  { name: 'Functional Medicine', icon: FlaskConical },
+                  { name: 'Integrative Medicine', icon: Stethoscope },
+                  { name: 'Osteopathic Care', icon: Bone },
+                  { name: 'Holistic Health', icon: Flower2 }
+                ].map((specialty, idx) => (
                   <div key={idx} className="flex items-center space-x-2">
-                    <CheckCircle className="w-4 h-4 text-blue-300" />
-                    <span className="text-blue-50">{specialty}</span>
+                    <specialty.icon className="w-4 h-4 text-blue-300" />
+                    <span className="text-blue-50">{specialty.name}</span>
                   </div>
                 ))}
               </div>
