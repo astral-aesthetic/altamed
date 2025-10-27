@@ -316,7 +316,7 @@ export default function LandingPage() {
                 alt="Wellness Center"
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-green-900/80 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 to-transparent" />
               <div className="absolute bottom-4 left-4 right-4">
                 <div className="text-white font-semibold text-sm">Natural Healing Spaces</div>
               </div>
@@ -472,7 +472,7 @@ export default function LandingPage() {
             style={{ 
               opacity: animatedElements.has('cta') ? 1 : 0,
               transform: animatedElements.has('cta') ? 'scale(1)' : 'scale(0.95)',
-              backgroundImage: 'linear-gradient(white, white), linear-gradient(to right, #3b82f6, #a855f7, #3b82f6)',
+              backgroundImage: 'linear-gradient(white, white), linear-gradient(to right, #3b82f6, #0f172a, #3b82f6)',
               backgroundOrigin: 'border-box',
               backgroundClip: 'padding-box, border-box'
             }}
