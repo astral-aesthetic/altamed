@@ -67,7 +67,7 @@ export default function PractitionerCard({ practitioner }: Props) {
       </div>
 
       {practitioner.telehealth_available && (
-        <div className="flex items-center space-x-2 text-sm text-purple-600 font-medium">
+        <div className="flex items-center space-x-2 text-sm text-slate-700 font-medium">
           <Video className="w-4 h-4" />
           <span>Telehealth Available</span>
         </div>

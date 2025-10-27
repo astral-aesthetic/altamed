@@ -370,7 +370,7 @@ export default function LandingPage() {
                 <div key={i} className="bg-slate-100 rounded-2xl h-64 animate-pulse" />
               ))}
             </div>
-          ) : (
+          ) : featuredPractitioners.length > 0 ? (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {featuredPractitioners.slice(0, 3).map((practitioner, idx) => (
                 <Link
@@ -417,6 +417,19 @@ export default function LandingPage() {
                   </div>
                 </Link>
               ))}
+            </div>
+          ) : (
+            <div className="text-center py-12">
+              <p className="text-slate-600 mb-6">
+                Connect with our network of certified practitioners to begin your wellness journey.
+              </p>
+              <Link
+                to="/directory"
+                className="inline-flex items-center bg-gradient-to-r from-blue-600 to-slate-900 hover:from-blue-700 hover:to-slate-950 text-white px-8 py-4 rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
+              >
+                Explore Our Directory
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Link>
             </div>
           )}
 
