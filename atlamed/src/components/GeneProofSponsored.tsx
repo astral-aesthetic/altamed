@@ -58,22 +58,18 @@ export default function GeneProofSponsored() {
               </div>
 
               <div className="relative">
-                {/* Replace this image by dropping your file at atlamed/public/images/geneproof-app.png */}
-                <div className="bg-white/10 backdrop-blur-md rounded-2xl p-3 border border-white/20">
-                  <div className="bg-gradient-to-br from-white/90 to-white/70 rounded-xl p-3">
-                    <div className="relative rounded-xl overflow-hidden shadow-2xl ring-1 ring-slate-200/60">
-                      <img
-                        src={`${import.meta.env.BASE_URL}images/geneproof 2.0 - heart health.png`}
-                        alt="GeneProof 2.0 - Heart Health app screenshot"
-                        className="w-full h-full object-contain bg-white"
-                        loading="lazy"
-                      />
-                    </div>
-                  </div>
+                {/* GeneProof app image - larger display without card wrapper */}
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/geneproof 2.0 - heart health.png`}
+                    alt="GeneProof 2.0 - Heart Health app screenshot"
+                    className="w-full h-full object-contain"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="pointer-events-none absolute -z-10 inset-0">
-                  <div className="absolute -top-8 -right-8 h-56 w-56 rounded-full bg-purple-500/30 blur-3xl" />
-                  <div className="absolute -bottom-10 -left-10 h-56 w-56 rounded-full bg-blue-500/30 blur-3xl" />
+                  <div className="absolute -top-8 -right-8 h-64 w-64 rounded-full bg-slate-500/20 blur-3xl" />
+                  <div className="absolute -bottom-10 -left-10 h-64 w-64 rounded-full bg-blue-500/20 blur-3xl" />
                 </div>
               </div>
             </div>
