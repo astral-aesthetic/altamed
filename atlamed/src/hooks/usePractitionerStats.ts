@@ -26,6 +26,11 @@ export function usePractitionerStats(): PractitionerStats {
 
   async function loadStats() {
     try {
+      if (!supabase) {
+        console.warn('[usePractitionerStats] Supabase not configured; using zero stats');
+        setStats({ total: 0, states: 0, specialties: 0, loading: false });
+        return;
+      }
       // Get total count of practitioners
       const { count: totalCount } = await supabase
         .from('practitioners')

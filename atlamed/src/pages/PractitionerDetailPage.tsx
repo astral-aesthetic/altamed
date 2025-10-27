@@ -17,6 +17,11 @@ export default function PractitionerDetailPage() {
 
   async function loadPractitioner() {
     try {
+      if (!supabase) {
+        console.warn('[PractitionerDetailPage] Supabase not configured; skipping practitioner fetch');
+        setLoading(false);
+        return;
+      }
       const { data, error } = await supabase
         .from('practitioners')
         .select('*')

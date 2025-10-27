@@ -48,6 +48,10 @@ export default function LandingPage() {
 
   async function loadData() {
     try {
+      if (!supabase) {
+        console.warn('[LandingPage] Supabase not configured; skipping featured practitioners fetch');
+        return;
+      }
       const { data: practitioners } = await supabase
         .from('practitioners')
         .select('*')

@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/30">
           <Header />
           <Routes>

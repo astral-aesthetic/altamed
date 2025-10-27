@@ -42,6 +42,11 @@ export default function DirectoryPage() {
 
   async function loadPractitioners() {
     try {
+      if (!supabase) {
+        console.warn('[DirectoryPage] Supabase not configured; skipping practitioners fetch');
+        setLoading(false);
+        return;
+      }
       const { data, error } = await supabase
         .from('practitioners')
         .select('*')
