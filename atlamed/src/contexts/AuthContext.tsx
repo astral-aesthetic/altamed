@@ -21,6 +21,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!supabase) {
+      // Auth not configured (e.g., in GitHub Pages without env). Don't set up listeners.
+      // Render app without auth; consumers can handle disabled actions.
+      setLoading(false);
+      return;
+    }
+
     loadUser();
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
@@ -40,6 +47,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   async function loadUser() {
     setLoading(true);
     try {
+      if (!supabase) {
+        setUser(null);
+        return;
+      }
       const { data: { user } } = await supabase.auth.getUser();
       setUser(user);
       if (user) {
@@ -52,6 +63,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   async function loadUserProfile(userId: string) {
     try {
+      if (!supabase) return;
       const { data, error } = await supabase
         .from('user_profiles')
         .select('*')
@@ -72,11 +84,19 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }
 
   async function signIn(email: string, password: string) {
+    if (!supabase) {
+      console.warn('[Auth] Supabase not configured; signIn is disabled.');
+      throw new Error('Authentication is not available in this environment.');
+    }
     const { error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) throw error;
   }
 
   async function signUp(email: string, password: string, fullName: string, userType: 'patient' | 'practitioner') {
+    if (!supabase) {
+      console.warn('[Auth] Supabase not configured; signUp is disabled.');
+      throw new Error('Authentication is not available in this environment.');
+    }
     const { data, error } = await supabase.auth.signUp({
       email,
       password,
@@ -101,6 +121,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }
 
   async function signOut() {
+    if (!supabase) {
+      console.warn('[Auth] Supabase not configured; signOut is disabled.');
+      return;
+    }
     const { error } = await supabase.auth.signOut();
     if (error) throw error;
   }
