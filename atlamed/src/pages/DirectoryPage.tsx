@@ -47,13 +47,19 @@ export default function DirectoryPage() {
         setLoading(false);
         return;
       }
+      console.log('[DirectoryPage] Fetching practitioners...');
       const { data, error } = await supabase
         .from('practitioners')
         .select('*')
         .order('full_name');
 
-      if (error) throw error;
+      if (error) {
+        console.error('[DirectoryPage] Supabase error:', error);
+        throw error;
+      }
 
+      console.log('[DirectoryPage] Fetched practitioners:', data?.length || 0);
+      
       if (data) {
         setPractitioners(data);
         setFilteredPractitioners(data);

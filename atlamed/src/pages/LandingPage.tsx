@@ -429,16 +429,6 @@ export default function LandingPage() {
               </Link>
             </div>
           )}
-
-          <div className="text-center mt-12">
-            <Link
-              to="/directory"
-              className="inline-flex items-center bg-gradient-to-r from-blue-600 to-slate-900 hover:from-blue-700 hover:to-slate-950 text-white px-8 py-4 rounded-2xl font-semibold shadow-xl hover:shadow-2xl transition-all transform hover:scale-105"
-            >
-              View All {stats.total}+ Practitioners
-              <ArrowRight className="w-5 h-5 ml-2" />
-            </Link>
-          </div>
         </div>
       </section>
 

@@ -57,8 +57,8 @@ export default function GeneProofSponsored() {
                 </a>
               </div>
 
-              <div className="relative">
-                {/* GeneProof app image - larger display without card wrapper */}
+              <div className="relative scale-125 origin-center">
+                {/* GeneProof app image - 25% larger display without card wrapper */}
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <img
                     src={`${import.meta.env.BASE_URL}images/geneproof 2.0 - heart health.png`}
