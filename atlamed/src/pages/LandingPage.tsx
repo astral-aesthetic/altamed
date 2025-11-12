@@ -91,7 +91,7 @@ export default function LandingPage() {
                 <span>Traditional & Integrative Healthcare Solutions</span>
               </div>
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-bold text-slate-900 leading-tight">
-                Discover Our
+                Discover
                 <span className="block bg-gradient-to-r from-blue-600 via-blue-500 to-slate-900 bg-clip-text text-transparent mt-2">
                   Trusted Practitioners
                 </span>
