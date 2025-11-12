@@ -9,13 +9,18 @@ import json
 from supabase import create_client, Client
 from typing import List, Dict, Set, Tuple
 
-# Supabase credentials
-SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://mszwhncbjafstxtqfcaw.supabase.co")
-SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+# Supabase credentials - use environment variables
+SUPABASE_URL = os.environ.get("SUPABASE_URL")
+SUPABASE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
 
 if not SUPABASE_KEY:
-    print("⚠️  Warning: SUPABASE_SERVICE_ROLE_KEY not set. Using anon key if available.")
-    SUPABASE_KEY = os.environ.get("SUPABASE_ANON_KEY", "")
+    print("⚠️  Using SUPABASE_ANON_KEY (read-only access, deletion may fail)")
+    SUPABASE_KEY = os.environ.get("SUPABASE_ANON_KEY")
+
+if not SUPABASE_URL or not SUPABASE_KEY:
+    print("❌ Error: Missing required environment variables")
+    print("   Please set: SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY (or SUPABASE_ANON_KEY)")
+    exit(1)
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 

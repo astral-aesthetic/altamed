@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, Users, MapPin, Star, TrendingUp, Shield, Heart, CheckCircle, Award, Activity, Sparkles, ArrowRight, Clock, Leaf, Dna, PersonStanding, Bone, Flower2 } from 'lucide-react';
+import { Search, Users, MapPin, Star, TrendingUp, Shield, Heart, CheckCircle, Award, Activity, Sparkles, ArrowRight, Leaf, Dna, PersonStanding, Bone, Flower2 } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { Practitioner } from '../types';
 import SEO from '../components/SEO';
@@ -328,21 +328,7 @@ export default function LandingPage() {
               </div>
             </div>
 
-            {/* Telehealth Card */}
-            <div 
-              className="bg-white rounded-3xl p-6 border border-slate-200 shadow-lg opacity-0 translate-y-8 transition-all duration-700 ease-out delay-800"
-              data-animate-id="bento-6"
-              style={{ 
-                opacity: animatedElements.has('bento-6') ? 1 : 0,
-                transform: animatedElements.has('bento-6') ? 'translateY(0)' : 'translateY(2rem)'
-              }}
-            >
-              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-slate-900 rounded-2xl flex items-center justify-center mb-4">
-                <Clock className="w-6 h-6 text-white" />
-              </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-2">24/7 Access</h3>
-              <p className="text-slate-600 text-sm">Telehealth options available for convenient consultations</p>
-            </div>
+
           </div>
         </div>
       </section>

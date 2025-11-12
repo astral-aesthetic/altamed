@@ -1,8 +1,12 @@
 import os
 from supabase import create_client, Client
 
-url = "https://mszwhncbjafstxtqfcaw.supabase.co"
-key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1zendobmNiamFmc3R4dHFmY2F3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA1NTMwNzMsImV4cCI6MjA3NjEyOTA3M30.d7_l2BcqDT7Hd5r1FLqM74Seya4Nf77tkckF1GP_viA"
+url = os.environ.get("SUPABASE_URL")
+key = os.environ.get("SUPABASE_ANON_KEY") or os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
+
+if not url or not key:
+    print("❌ Error: Missing environment variables SUPABASE_URL and SUPABASE_ANON_KEY")
+    exit(1)
 
 supabase: Client = create_client(url, key)
 

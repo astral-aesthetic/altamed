@@ -2,9 +2,14 @@ import os
 import sys
 from supabase import create_client, Client
 
-# Supabase configuration
-SUPABASE_URL = os.environ.get('SUPABASE_URL', 'https://mszwhncbjafstxtqfcaw.supabase.co')
-SUPABASE_KEY = os.environ.get('SUPABASE_ANON_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1zendobmNiamFmc3R4dHFmY2F3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA1NTMwNzMsImV4cCI6MjA3NjEyOTA3M30.d7_l2BcqDT7Hd5r1FLqM74Seya4Nf77tkckF1GP_viA')
+# Supabase configuration - use environment variables
+SUPABASE_URL = os.environ.get('SUPABASE_URL')
+SUPABASE_KEY = os.environ.get('SUPABASE_ANON_KEY') or os.environ.get('SUPABASE_SERVICE_ROLE_KEY')
+
+if not SUPABASE_URL or not SUPABASE_KEY:
+    print("❌ Error: Missing required environment variables")
+    print("   Please set: SUPABASE_URL and (SUPABASE_ANON_KEY or SUPABASE_SERVICE_ROLE_KEY)")
+    sys.exit(1)
 
 # Create Supabase client
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
