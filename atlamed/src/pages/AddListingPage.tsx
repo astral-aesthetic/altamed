@@ -12,9 +12,11 @@ import {
   Clock,
   DollarSign,
   CheckCircle,
-  AlertCircle
+  AlertCircle,
+  Loader
 } from 'lucide-react';
 import SEO from '../components/SEO';
+import { supabase } from '../lib/supabase';
 
 const AddListingPage = () => {
   const [formData, setFormData] = useState({
@@ -54,6 +56,8 @@ const AddListingPage = () => {
 
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [isLoading, setIsLoading] = useState(false);
+  const [submitError, setSubmitError] = useState('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value, type } = e.target;
@@ -99,11 +103,59 @@ const AddListingPage = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
-    if (validateForm()) {
-      console.log('Form submitted:', formData);
+    if (!validateForm()) {
+      // Scroll to first error
+      const firstError = document.querySelector('.border-red-300');
+      if (firstError) {
+        firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      return;
+    }
+
+    setIsLoading(true);
+    setSubmitError('');
+
+    try {
+      // First, add email to email_signups if not already there
+      await supabase
+        .from('email_signups')
+        .insert({
+          email: formData.email,
+          name: `${formData.firstName} ${formData.lastName}`,
+          source: 'add_listing',
+          subscribed_to_newsletter: true
+        });
+
+      // Insert into provider_submissions
+      const { error: submitError } = await supabase
+        .from('provider_submissions')
+        .insert({
+          full_name: `${formData.firstName} ${formData.lastName}`,
+          credentials: formData.credentials,
+          specialty_areas: [formData.specialty],
+          practice_name: formData.practiceName,
+          address: formData.practiceAddress,
+          city: formData.city,
+          state: formData.state,
+          zip_code: formData.zipCode,
+          phone: formData.phone,
+          email: formData.email,
+          website: formData.website,
+          insurance_accepted: formData.acceptsInsurance,
+          languages: formData.specializations ? formData.specializations.split(',').map(s => s.trim()) : [],
+          years_of_experience: parseInt(formData.yearsExperience) || 0,
+          bio: formData.bio,
+          status: 'pending'
+        })
+        .single();
+
+      if (submitError) {
+        throw new Error(submitError.message);
+      }
+
       setSubmitted(true);
       
       // Reset form after submission
@@ -133,12 +185,11 @@ const AddListingPage = () => {
           agreeToTerms: false
         });
       }, 3000);
-    } else {
-      // Scroll to first error
-      const firstError = document.querySelector('.border-red-300');
-      if (firstError) {
-        firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
+    } catch (error: any) {
+      console.error('Submission error:', error);
+      setSubmitError(error.message || 'Failed to submit listing. Please try again.');
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -199,6 +250,20 @@ const AddListingPage = () => {
                   <p className="text-slate-600">
                     Thank you for your interest in joining AtlaMed. We'll review your application and contact you within 2-3 business days.
                   </p>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {submitError && (
+            <div className="mb-8 p-6 bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-2xl">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <AlertCircle className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Submission Error</h3>
+                  <p className="text-slate-600">{submitError}</p>
                 </div>
               </div>
             </div>
@@ -707,10 +772,20 @@ const AddListingPage = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-blue-600 to-slate-900 text-white font-bold py-4 px-8 rounded-xl hover:from-blue-700 hover:to-slate-800 transition-all duration-200 shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
+                  disabled={isLoading}
+                  className="w-full bg-gradient-to-r from-blue-600 to-slate-900 text-white font-bold py-4 px-8 rounded-xl hover:from-blue-700 hover:to-slate-800 transition-all duration-200 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 >
-                  <UserPlus className="w-5 h-5" />
-                  Submit Application
+                  {isLoading ? (
+                    <>
+                      <Loader className="w-5 h-5 animate-spin" />
+                      Submitting...
+                    </>
+                  ) : (
+                    <>
+                      <UserPlus className="w-5 h-5" />
+                      Submit Application
+                    </>
+                  )}
                 </button>
 
                 <p className="text-sm text-slate-600 text-center">

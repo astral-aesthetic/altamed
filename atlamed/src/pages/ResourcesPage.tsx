@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, Download, CheckCircle, Stethoscope, Baby, Heart, Activity, Brain, Sparkles, Bone } from 'lucide-react';
+import { FileText, Download, CheckCircle, Stethoscope, Baby, Heart, Activity, Brain, Sparkles, Bone, Clock, Target, Users, Zap } from 'lucide-react';
 import SEO from '../components/SEO';
 
 interface Guide {
@@ -151,31 +151,49 @@ const ResourcesPage: React.FC = () => {
               return (
                 <div
                   key={guide.id}
-                  className="group bg-white/80 backdrop-blur-lg rounded-3xl border border-slate-200/50 hover:border-blue-300 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden"
+                  className="group bg-white/80 backdrop-blur-lg rounded-3xl border border-slate-200/50 hover:border-blue-400 shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col"
                 >
+                  {/* Top gradient section with icon */}
                   <div className={`bg-gradient-to-br ${guide.gradient} p-8 text-center relative overflow-hidden`}>
                     <div className="absolute inset-0 bg-white/10 backdrop-blur-sm" />
-                    <div className="relative">
-                      <div className="w-16 h-16 mx-auto mb-4 bg-white/20 backdrop-blur-md rounded-2xl flex items-center justify-center">
+                    <div className="absolute top-0 right-0 w-20 h-20 bg-white/10 rounded-full -mr-10 -mt-10" />
+                    <div className="absolute bottom-0 left-0 w-16 h-16 bg-white/10 rounded-full -ml-8 -mb-8" />
+                    
+                    <div className="relative z-10">
+                      <div className="w-16 h-16 mx-auto mb-4 bg-white/25 backdrop-blur-md rounded-2xl flex items-center justify-center shadow-xl">
                         <IconComponent className="w-8 h-8 text-white" />
                       </div>
-                      <div className="inline-block bg-white/20 backdrop-blur-md text-white px-4 py-1.5 rounded-full text-sm font-semibold border border-white/30">
+                      <div className="inline-block bg-white/25 backdrop-blur-md text-white px-4 py-1.5 rounded-full text-sm font-semibold border border-white/40">
                         {guide.specialty}
                       </div>
                     </div>
                   </div>
                   
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors">{guide.title}</h3>
-                    <p className="text-slate-900 mb-6 min-h-[80px] text-sm leading-relaxed">{guide.description}</p>
+                  {/* Content section */}
+                  <div className="p-6 flex flex-col flex-1">
+                    <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-blue-600 transition-colors line-clamp-2">{guide.title}</h3>
+                    <p className="text-slate-600 mb-6 flex-1 text-sm leading-relaxed min-h-[80px]">{guide.description}</p>
                     
+                    {/* Download button */}
                     <button
                       onClick={() => handleDownload(guide)}
-                      className={`w-full bg-gradient-to-r ${guide.gradient} hover:opacity-90 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 group shadow-lg`}
+                      className={`w-full bg-gradient-to-r ${guide.gradient} hover:opacity-90 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 group shadow-lg hover:shadow-xl transform hover:scale-105`}
                     >
                       <Download className="w-5 h-5 group-hover:translate-y-1 transition-transform" />
-                      Download Guide
+                      <span>Download Guide</span>
                     </button>
+                    
+                    {/* Guide info */}
+                    <div className="mt-4 pt-4 border-t border-slate-200 flex items-center justify-between text-xs text-slate-500">
+                      <div className="flex items-center gap-1">
+                        <FileText className="w-4 h-4" />
+                        <span>Markdown</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Zap className="w-4 h-4" />
+                        <span>Ready to Use</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               );

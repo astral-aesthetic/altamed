@@ -60,7 +60,7 @@ export default function GeneProofSponsored() {
               <div className="relative scale-150 sm:scale-125 origin-center">
                 {/* GeneProof app image - Larger on mobile (150%), smaller on desktop (125%) */}
                 <img
-                  src={`${import.meta.env.BASE_URL}images/geneproof 2.0 - heart health.png`}
+                  src="/images/geneproof 2.0 - heart health.png"
                   alt="GeneProof 2.0 - Heart Health app screenshot"
                   className="w-full h-full object-contain"
                   loading="lazy"

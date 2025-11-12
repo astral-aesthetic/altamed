@@ -7,6 +7,7 @@ import SEO from '../components/SEO';
 import GeneProofSponsored from '../components/GeneProofSponsored';
 import ProfessionalProviderShowcase from '../components/ProfessionalProviderShowcase';
 import ProviderListingCTA from '../components/ProviderListingCTA';
+import EmailSignupForm from '../components/EmailSignupForm';
 import { usePractitionerStats, formatPractitionerCount } from '../hooks/usePractitionerStats';
 
 export default function LandingPage() {
@@ -131,22 +132,22 @@ export default function LandingPage() {
                   <div className="flex items-center space-x-2">
                     <div className="flex -space-x-2">
                       <img 
-                        src={`${import.meta.env.BASE_URL}images/practitioners/ken_berry.jpg`} 
+                        src="/images/practitioners/ken_berry.jpg" 
                         alt="Dr. Ken Berry"
                         className="w-8 h-8 rounded-full border-2 border-white object-cover"
                       />
                       <img 
-                        src={`${import.meta.env.BASE_URL}images/practitioners/chris_palmer.jpg`} 
+                        src="/images/practitioners/chris_palmer.jpg" 
                         alt="Dr. Chris Palmer"
                         className="w-8 h-8 rounded-full border-2 border-white object-cover"
                       />
                       <img 
-                        src={`${import.meta.env.BASE_URL}images/practitioners/philip_ovadia.jpg`} 
+                        src="/images/practitioners/philip_ovadia.jpg" 
                         alt="Dr. Philip Ovadia"
                         className="w-8 h-8 rounded-full border-2 border-white object-cover"
                       />
                       <img 
-                        src={`${import.meta.env.BASE_URL}images/practitioners/paul_saladino.jpg`} 
+                        src="/images/practitioners/paul_saladino.jpg" 
                         alt="Dr. Paul Saladino"
                         className="w-8 h-8 rounded-full border-2 border-white object-cover"
                       />
@@ -201,10 +202,10 @@ export default function LandingPage() {
                 transform: animatedElements.has('bento-1') ? 'scale(1)' : 'scale(0.95)'
               }}
             >
-              <img 
-                src={`${import.meta.env.BASE_URL}images/clinic.jpg`} 
-                alt="Holistic Clinic"
-                className="absolute inset-0 w-full h-full object-cover"
+                            <img 
+                src="/images/clinic.jpg" 
+                alt="Modern Medical Clinic"
+                className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/50 to-transparent" />
               <div className="relative h-full p-8 flex flex-col justify-end">
@@ -318,7 +319,7 @@ export default function LandingPage() {
               }}
             >
               <img 
-                src={`${import.meta.env.BASE_URL}images/wellness2.jpg`} 
+                src="/images/wellness2.jpg" 
                 alt="Wellness Center"
                 className="w-full h-full object-cover"
               />
@@ -486,6 +487,33 @@ export default function LandingPage() {
                 <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 ml-2 sm:ml-3" />
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter Signup Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto max-w-4xl">
+          <div 
+            className="text-center opacity-0 translate-y-8 transition-all duration-700 ease-out"
+            data-animate-id="newsletter"
+            style={{ 
+              opacity: animatedElements.has('newsletter') ? 1 : 0,
+              transform: animatedElements.has('newsletter') ? 'translateY(0)' : 'translateY(2rem)'
+            }}
+          >
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-3">
+              Stay Informed About Holistic Health
+            </h2>
+            <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
+              Get exclusive insights, practitioner recommendations, and wellness tips delivered to your inbox.
+            </p>
+            <EmailSignupForm 
+              source="landing_page"
+              placeholder="Enter your email address"
+              buttonText="Subscribe"
+              className="max-w-md mx-auto"
+            />
           </div>
         </div>
       </section>

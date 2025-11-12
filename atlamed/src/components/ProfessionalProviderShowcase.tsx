@@ -11,7 +11,7 @@ export default function ProfessionalProviderShowcase() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl shadow-2xl">
               <img
-                src={`${import.meta.env.BASE_URL}images/provider-showcase.jpg`}
+                src="/images/provider-showcase.jpg"
                 alt="Professional Naturopathic Doctor Consulting with Patient"
                 className="w-full h-[600px] object-cover"
               />

@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { X, Mail, Lock, User, AlertCircle } from 'lucide-react';
+import { X, Mail, Lock, User, AlertCircle, CheckCircle } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
+import { supabase } from '../lib/supabase';
 
 interface AuthModalsProps {
   isLoginOpen: boolean;
@@ -28,6 +29,7 @@ export default function AuthModals({
     confirmPassword: '',
     userType: 'patient' as 'patient' | 'practitioner',
     addListing: false,
+    subscribeNewsletter: true,
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
@@ -70,6 +72,24 @@ export default function AuthModals({
 
     try {
       await signUp(registerData.email, registerData.password, registerData.fullName, registerData.userType);
+      
+      // Also save to email_signups if newsletter is selected
+      if (registerData.subscribeNewsletter) {
+        try {
+          await supabase
+            .from('email_signups')
+            .insert({
+              email: registerData.email.toLowerCase(),
+              name: registerData.fullName,
+              source: 'registration',
+              subscribed_to_newsletter: true
+            });
+        } catch (err: any) {
+          // Silently ignore if email already exists (unique constraint)
+          console.error('Note: Email may already be in signup list');
+        }
+      }
+      
       setSuccess('Registration successful! Please check your email to verify your account.');
       setTimeout(() => {
         onCloseRegister();
@@ -310,6 +330,20 @@ export default function AuthModals({
                   </label>
                 </div>
               )}
+
+              <div className="bg-gradient-to-r from-blue-50 to-slate-50 border border-blue-200 rounded-xl p-4">
+                <label className="flex items-start space-x-3 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={registerData.subscribeNewsletter}
+                    onChange={(e) => setRegisterData({ ...registerData, subscribeNewsletter: e.target.checked })}
+                    className="w-5 h-5 text-blue-600 mt-0.5"
+                  />
+                  <span className="text-sm text-slate-700">
+                    Subscribe to our newsletter for exclusive wellness tips and practitioner insights
+                  </span>
+                </label>
+              </div>
 
               <button
                 type="submit"
